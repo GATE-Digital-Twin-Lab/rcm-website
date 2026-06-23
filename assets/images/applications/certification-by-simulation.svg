@@ -44,11 +44,11 @@
 
   <!-- Teal flow lines around wing (CFD streamlines) -->
   <g stroke="#0E988C" stroke-width="1.2" fill="none" stroke-linecap="round" opacity="0.6">
-    <path d="M60,100 C120,95 160,90 200,95 C260,102 290,130 370,125 C430,120 490,115 580,118"><animateTransform attributeName="transform" type="translate" values="0 0; 7 -2; 2 2; -3 1; 0 0" dur="5s" begin="0s" repeatCount="indefinite"/></path>
-    <path d="M60,125 C130,118 170,112 210,118 C270,127 295,145 375,142 C435,139 490,136 580,138"><animateTransform attributeName="transform" type="translate" values="0 0; 7 -2; 2 2; -3 1; 0 0" dur="5.6s" begin="-1.4s" repeatCount="indefinite"/></path>
-    <path d="M60,165 C100,162 140,160 180,163 C230,168 270,175 340,175 C400,175 460,170 580,168"><animateTransform attributeName="transform" type="translate" values="0 0; 7 -2; 2 2; -3 1; 0 0" dur="6.2s" begin="-2.8s" repeatCount="indefinite"/></path>
-    <path d="M60,200 C120,202 180,204 230,202 C290,198 330,195 390,198 C450,202 510,204 580,202"><animateTransform attributeName="transform" type="translate" values="0 0; 7 -2; 2 2; -3 1; 0 0" dur="5.4s" begin="-3.6s" repeatCount="indefinite"/></path>
-    <path d="M60,220 C130,224 190,227 240,224 C300,219 340,216 400,219 C460,223 510,225 580,222"><animateTransform attributeName="transform" type="translate" values="0 0; 7 -2; 2 2; -3 1; 0 0" dur="6s" begin="-4.7s" repeatCount="indefinite"/></path>
+    <path d="M60,100 C120,95 160,90 200,95 C260,102 290,130 370,125 C430,120 490,115 580,118"><animateTransform attributeName="transform" type="translate" values="0 0; 10.5 -3; 3 3; -4.5 1.5; 0 0" dur="5s" begin="0s" repeatCount="indefinite"/></path>
+    <path d="M60,125 C130,118 170,112 210,118 C270,127 295,145 375,142 C435,139 490,136 580,138"><animateTransform attributeName="transform" type="translate" values="0 0; 10.5 -3; 3 3; -4.5 1.5; 0 0" dur="5.6s" begin="-1.4s" repeatCount="indefinite"/></path>
+    <path d="M60,165 C100,162 140,160 180,163 C230,168 270,175 340,175 C400,175 460,170 580,168"><animateTransform attributeName="transform" type="translate" values="0 0; 10.5 -3; 3 3; -4.5 1.5; 0 0" dur="6.2s" begin="-2.8s" repeatCount="indefinite"/></path>
+    <path d="M60,200 C120,202 180,204 230,202 C290,198 330,195 390,198 C450,202 510,204 580,202"><animateTransform attributeName="transform" type="translate" values="0 0; 10.5 -3; 3 3; -4.5 1.5; 0 0" dur="5.4s" begin="-3.6s" repeatCount="indefinite"/></path>
+    <path d="M60,220 C130,224 190,227 240,224 C300,219 340,216 400,219 C460,223 510,225 580,222"><animateTransform attributeName="transform" type="translate" values="0 0; 10.5 -3; 3 3; -4.5 1.5; 0 0" dur="6s" begin="-4.7s" repeatCount="indefinite"/></path>
   </g>
 
   <!-- Certification badge / checkmark circle (teal) -->

@@ -66,11 +66,11 @@
     <path d="M0,110 C50,100 90,130 140,115 C190,100 230,90 280,110 C330,130 380,100 430,110 C480,120 520,95 580,105 C610,110 630,102 640,105"><animateTransform attributeName="transform" type="translate" values="0 0;0 -7.5;0 0;0 7.5;0 0" dur="6.5s" begin="-2.3s" repeatCount="indefinite"/></path>
     <path d="M0,145 C70,135 100,160 160,148 C220,136 260,125 320,145 C380,165 420,135 470,145 C520,155 560,130 610,140 C625,143 635,138 640,140"><animateTransform attributeName="transform" type="translate" values="0 0;0 -7.5;0 0;0 7.5;0 0" dur="6s" begin="-4.1s" repeatCount="indefinite"/></path>
   </g>
-  <!-- Arrowheads on flow lines -->
+  <!-- Arrowheads on flow lines — each rides its own streamline in sync -->
   <g stroke="#ED481C" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round">
-    <polyline points="236,76 244,80 236,84"/>
-    <polyline points="426,106 434,110 426,114"/>
-    <polyline points="316,141 324,145 316,149"/>
+    <polyline points="236,76 244,80 236,84"><animateTransform attributeName="transform" type="translate" values="0 0;0 -7.5;0 0;0 7.5;0 0" dur="5.5s" begin="0s" repeatCount="indefinite"/></polyline>
+    <polyline points="426,106 434,110 426,114"><animateTransform attributeName="transform" type="translate" values="0 0;0 -7.5;0 0;0 7.5;0 0" dur="6.5s" begin="-2.3s" repeatCount="indefinite"/></polyline>
+    <polyline points="316,141 324,145 316,149"><animateTransform attributeName="transform" type="translate" values="0 0;0 -7.5;0 0;0 7.5;0 0" dur="6s" begin="-4.1s" repeatCount="indefinite"/></polyline>
   </g>
 
   <!-- Label -->
