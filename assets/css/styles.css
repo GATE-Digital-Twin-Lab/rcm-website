@@ -702,6 +702,7 @@ small, .small { font-size: var(--fs-small); }
   box-shadow: var(--shadow-md);
 }
 .card--team-pi:hover { border-color: var(--color-secondary); }
+.card--team-pi .card--team__role { color: var(--color-secondary); }
 .card--team-pi .card--team__photo {
   box-shadow: 0 0 0 3px var(--color-bg), 0 0 0 5px rgba(237, 72, 28, 0.35);
 }

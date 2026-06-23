@@ -22,17 +22,17 @@
     <line x1="31" y1="-31" x2="-31" y2="31" stroke="#0E988C" stroke-width="1" opacity="0.3"/>
     <!-- Gear teeth rects -->
     <rect x="-8" y="-67" width="16" height="13" rx="2" fill="#E7F6F5" stroke="#0E988C" stroke-width="1.5"/>
-    <rect x="38" y="-55" width="16" height="13" rx="2" fill="#E7F6F5" stroke="#0E988C" stroke-width="1.5" transform="rotate(30)"/>
-    <rect x="38" y="-55" width="16" height="13" rx="2" fill="#E7F6F5" stroke="#0E988C" stroke-width="1.5" transform="rotate(60)"/>
-    <rect x="38" y="-55" width="16" height="13" rx="2" fill="#E7F6F5" stroke="#0E988C" stroke-width="1.5" transform="rotate(90)"/>
-    <rect x="38" y="-55" width="16" height="13" rx="2" fill="#E7F6F5" stroke="#0E988C" stroke-width="1.5" transform="rotate(120)"/>
-    <rect x="38" y="-55" width="16" height="13" rx="2" fill="#E7F6F5" stroke="#0E988C" stroke-width="1.5" transform="rotate(150)"/>
-    <rect x="38" y="-55" width="16" height="13" rx="2" fill="#E7F6F5" stroke="#0E988C" stroke-width="1.5" transform="rotate(180)"/>
-    <rect x="38" y="-55" width="16" height="13" rx="2" fill="#E7F6F5" stroke="#0E988C" stroke-width="1.5" transform="rotate(210)"/>
-    <rect x="38" y="-55" width="16" height="13" rx="2" fill="#E7F6F5" stroke="#0E988C" stroke-width="1.5" transform="rotate(240)"/>
-    <rect x="38" y="-55" width="16" height="13" rx="2" fill="#E7F6F5" stroke="#0E988C" stroke-width="1.5" transform="rotate(270)"/>
-    <rect x="38" y="-55" width="16" height="13" rx="2" fill="#E7F6F5" stroke="#0E988C" stroke-width="1.5" transform="rotate(300)"/>
-    <rect x="38" y="-55" width="16" height="13" rx="2" fill="#E7F6F5" stroke="#0E988C" stroke-width="1.5" transform="rotate(330)"/>
+    <rect x="-8" y="-67" width="16" height="13" rx="2" fill="#E7F6F5" stroke="#0E988C" stroke-width="1.5" transform="rotate(30)"/>
+    <rect x="-8" y="-67" width="16" height="13" rx="2" fill="#E7F6F5" stroke="#0E988C" stroke-width="1.5" transform="rotate(60)"/>
+    <rect x="-8" y="-67" width="16" height="13" rx="2" fill="#E7F6F5" stroke="#0E988C" stroke-width="1.5" transform="rotate(90)"/>
+    <rect x="-8" y="-67" width="16" height="13" rx="2" fill="#E7F6F5" stroke="#0E988C" stroke-width="1.5" transform="rotate(120)"/>
+    <rect x="-8" y="-67" width="16" height="13" rx="2" fill="#E7F6F5" stroke="#0E988C" stroke-width="1.5" transform="rotate(150)"/>
+    <rect x="-8" y="-67" width="16" height="13" rx="2" fill="#E7F6F5" stroke="#0E988C" stroke-width="1.5" transform="rotate(180)"/>
+    <rect x="-8" y="-67" width="16" height="13" rx="2" fill="#E7F6F5" stroke="#0E988C" stroke-width="1.5" transform="rotate(210)"/>
+    <rect x="-8" y="-67" width="16" height="13" rx="2" fill="#E7F6F5" stroke="#0E988C" stroke-width="1.5" transform="rotate(240)"/>
+    <rect x="-8" y="-67" width="16" height="13" rx="2" fill="#E7F6F5" stroke="#0E988C" stroke-width="1.5" transform="rotate(270)"/>
+    <rect x="-8" y="-67" width="16" height="13" rx="2" fill="#E7F6F5" stroke="#0E988C" stroke-width="1.5" transform="rotate(300)"/>
+    <rect x="-8" y="-67" width="16" height="13" rx="2" fill="#E7F6F5" stroke="#0E988C" stroke-width="1.5" transform="rotate(330)"/>
   </g>
 
   <!-- Small gear (orange-red) -->
