@@ -904,7 +904,7 @@ small, .small { font-size: var(--fs-small); }
 
 .site-footer__grid { display: grid; gap: var(--space-6); grid-template-columns: 1fr; }
 @media (min-width: 620px) { .site-footer__grid { grid-template-columns: 1fr 1fr; } }
-@media (min-width: 768px) { .site-footer__grid { grid-template-columns: 1.8fr 1fr 1.4fr; } }
+@media (min-width: 768px) { .site-footer__grid { grid-template-columns: 1.6fr 1.4fr; } }
 
 .site-footer__brand img { height: 36px; width: auto; margin-bottom: var(--space-4); }
 .site-footer__blurb { color: #C9CBE0; font-size: var(--fs-small); max-width: 40ch; margin-bottom: 0; }

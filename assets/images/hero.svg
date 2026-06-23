@@ -1,74 +1,133 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" width="640" height="480">
-  <title>RCM Hero — Computational Modelling Abstract Visual</title>
+  <title>RCM Hero — Physical asset paired with its reliable digital twin</title>
   <defs>
-    <!-- Background gradient -->
     <linearGradient id="bg-grad" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#F5F4F9"/>
       <stop offset="100%" stop-color="#E7F6F5"/>
     </linearGradient>
-    <!-- Dot pattern -->
     <pattern id="dots" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="1.2" fill="#2B3062" opacity="0.18"/>
+      <circle cx="2" cy="2" r="1.2" fill="#2B3062" opacity="0.16"/>
     </pattern>
   </defs>
 
   <!-- Background -->
   <rect width="640" height="480" fill="url(#bg-grad)"/>
-  <!-- Dot grid -->
   <rect width="640" height="480" fill="url(#dots)"/>
 
-  <!-- Contour / mesh lines (teal) — concentric wave shapes -->
-  <g stroke="#0E988C" stroke-width="1.2" fill="none" opacity="0.55">
-    <ellipse cx="380" cy="260" rx="80" ry="55"/>
-    <ellipse cx="380" cy="260" rx="120" ry="85"/>
-    <ellipse cx="380" cy="260" rx="160" ry="115"/>
-    <ellipse cx="380" cy="260" rx="200" ry="145"/>
-    <ellipse cx="380" cy="260" rx="240" ry="175"/>
+  <!-- Simulated field around the digital twin (faint teal contours) -->
+  <g stroke="#0E988C" stroke-width="1.1" fill="none" opacity="0.28">
+    <ellipse cx="470" cy="205" rx="78" ry="56"/>
+    <ellipse cx="470" cy="205" rx="116" ry="84"/>
+    <ellipse cx="470" cy="205" rx="154" ry="112"/>
   </g>
 
-  <!-- Flow lines (orange) — horizontal wave paths -->
-  <g stroke="#ED481C" stroke-width="1.4" fill="none" opacity="0.45">
-    <path d="M60,160 Q160,130 260,160 T460,160 T640,160"/>
-    <path d="M60,195 Q160,165 260,195 T460,195 T640,195"/>
-    <path d="M60,230 Q160,200 260,230 T460,230 T640,230"/>
+  <!-- ===================== PHYSICAL ASSET (solid, navy) ===================== -->
+  <g>
+    <!-- Top face -->
+    <polygon points="125,150 153,130 263,130 235,150" fill="#2B3062"/>
+    <!-- Right face -->
+    <polygon points="235,150 263,130 263,270 235,290" fill="#191D3F"/>
+    <!-- Front face -->
+    <rect x="125" y="150" width="110" height="140" fill="#0F112A"/>
+    <!-- Window grid -->
+    <g stroke="#1CCFC0" stroke-width="0.9" opacity="0.45">
+      <line x1="162" y1="150" x2="162" y2="290"/>
+      <line x1="198" y1="150" x2="198" y2="290"/>
+      <line x1="125" y1="185" x2="235" y2="185"/>
+      <line x1="125" y1="220" x2="235" y2="220"/>
+      <line x1="125" y1="255" x2="235" y2="255"/>
+    </g>
   </g>
 
-  <!-- Mesh triangulation (navy, light) -->
-  <g stroke="#0F112A" stroke-width="0.7" fill="none" opacity="0.12">
-    <line x1="60" y1="80" x2="200" y2="340"/>
-    <line x1="200" y1="340" x2="460" y2="120"/>
-    <line x1="460" y1="120" x2="60" y2="80"/>
-    <line x1="460" y1="120" x2="580" y2="380"/>
-    <line x1="200" y1="340" x2="580" y2="380"/>
-    <line x1="60" y1="80" x2="580" y2="380"/>
-    <line x1="130" y1="210" x2="380" y2="420"/>
-    <line x1="380" y1="420" x2="560" y2="180"/>
-    <line x1="130" y1="210" x2="560" y2="180"/>
-    <line x1="270" y1="60" x2="130" y2="210"/>
-    <line x1="270" y1="60" x2="560" y2="180"/>
+  <!-- ===================== DIGITAL TWIN (dashed teal wireframe) ===================== -->
+  <g fill="none" stroke="#0E988C">
+    <!-- Faint fill to read as a volume -->
+    <rect x="405" y="150" width="110" height="140" fill="#0E988C" opacity="0.06" stroke="none"/>
+    <!-- Edges (dashed) -->
+    <g stroke-width="2" stroke-dasharray="7 5" stroke-linejoin="round">
+      <rect x="405" y="150" width="110" height="140"/>
+      <polygon points="405,150 433,130 543,130 515,150"/>
+      <polyline points="515,150 543,130 543,270 515,290"/>
+    </g>
+    <!-- Interior window grid (dashed, faint) -->
+    <g stroke-width="1" stroke-dasharray="4 4" opacity="0.6">
+      <line x1="442" y1="150" x2="442" y2="290"/>
+      <line x1="478" y1="150" x2="478" y2="290"/>
+      <line x1="405" y1="185" x2="515" y2="185"/>
+      <line x1="405" y1="220" x2="515" y2="220"/>
+      <line x1="405" y1="255" x2="515" y2="255"/>
+    </g>
   </g>
-
-  <!-- Teal bright accent nodes at mesh vertices -->
+  <!-- Twin corner measurement nodes (bright teal, a couple gently pulsing) -->
   <g fill="#1CCFC0">
-    <circle cx="60" cy="80" r="4"/>
-    <circle cx="200" cy="340" r="3"/>
-    <circle cx="460" cy="120" r="5"/>
-    <circle cx="580" cy="380" r="3"/>
-    <circle cx="270" cy="60" r="3.5"/>
-    <circle cx="130" cy="210" r="3"/>
-    <circle cx="380" cy="420" r="3"/>
-    <circle cx="560" cy="180" r="4"/>
+    <circle cx="405" cy="150" r="3.5"><animate attributeName="r" values="3.5;5;3.5" dur="2.6s" repeatCount="indefinite"/></circle>
+    <circle cx="515" cy="150" r="3.5"/>
+    <circle cx="515" cy="290" r="3.5"><animate attributeName="r" values="3.5;5;3.5" dur="2.6s" begin="-1.3s" repeatCount="indefinite"/></circle>
+    <circle cx="405" cy="290" r="3.5"/>
+    <circle cx="433" cy="130" r="3"/>
+    <circle cx="543" cy="130" r="3"/>
+    <circle cx="543" cy="270" r="3"/>
   </g>
 
-  <!-- Orange-red accent node (focal point) -->
-  <circle cx="380" cy="260" r="7" fill="#ED481C"/>
-  <circle cx="380" cy="260" r="13" fill="none" stroke="#ED481C" stroke-width="1.5" opacity="0.4"/>
-
-  <!-- Gold accent small marks -->
-  <g fill="#FD9600" opacity="0.75">
-    <rect x="140" y="360" width="6" height="6" rx="1" transform="rotate(45 143 363)"/>
-    <rect x="500" y="90" width="5" height="5" rx="1" transform="rotate(45 502 92)"/>
+  <!-- ===================== BIDIRECTIONAL SYNC (twin <-> asset) ===================== -->
+  <g stroke="#ED481C" stroke-width="2.4" fill="none" stroke-dasharray="2 8" stroke-linecap="round">
+    <line x1="270" y1="200" x2="396" y2="200"><animate attributeName="stroke-dashoffset" values="0;-10" dur="0.9s" repeatCount="indefinite"/></line>
+    <line x1="396" y1="224" x2="270" y2="224"><animate attributeName="stroke-dashoffset" values="0;-10" dur="0.9s" repeatCount="indefinite"/></line>
   </g>
+  <!-- Arrowheads -->
+  <g fill="#ED481C">
+    <path d="M390,195 L401,200 L390,205 Z"/>
+    <path d="M276,219 L265,224 L276,229 Z"/>
+  </g>
+  <!-- Gold sync hub with two-way glyph -->
+  <circle cx="333" cy="212" r="11" fill="#FD9600"/>
+  <g fill="#0F112A">
+    <path d="M330,207 L324,212 L330,217 Z"/>
+    <path d="M336,207 L342,212 L336,217 Z"/>
+  </g>
+  <!-- Flowing data packets riding the link -->
+  <g fill="#ED481C">
+    <circle cy="200" r="3"><animate attributeName="cx" values="276;392" dur="2.4s" begin="0s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" dur="2.4s" begin="0s" repeatCount="indefinite"/></circle>
+    <circle cy="200" r="3"><animate attributeName="cx" values="276;392" dur="2.4s" begin="-1.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" dur="2.4s" begin="-1.2s" repeatCount="indefinite"/></circle>
+    <circle cy="224" r="3"><animate attributeName="cx" values="392;276" dur="2.4s" begin="-0.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" dur="2.4s" begin="-0.6s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- Captions -->
+  <text x="180" y="312" font-family="ui-monospace, monospace" font-size="11" font-weight="700" fill="#0F112A" text-anchor="middle" letter-spacing="2">PHYSICAL ASSET</text>
+  <text x="470" y="312" font-family="ui-monospace, monospace" font-size="11" font-weight="700" fill="#0E988C" text-anchor="middle" letter-spacing="2">DIGITAL TWIN</text>
+
+  <!-- ===================== RELIABILITY: prediction + uncertainty envelope ===================== -->
+  <text x="70" y="346" font-family="ui-monospace, monospace" font-size="10" fill="#2B3062" opacity="0.65" letter-spacing="1.5">MODEL PREDICTION ± QUANTIFIED UNCERTAINTY</text>
+  <!-- Confidence envelope -->
+  <path d="M70,371 C160,339 250,339 320,367 C390,395 480,395 570,363 L570,407 C480,439 390,439 320,411 C250,383 160,383 70,415 Z" fill="#0E988C" opacity="0.14"/>
+  <!-- Prediction curve -->
+  <path d="M70,393 C160,361 250,361 320,389 C390,417 480,417 570,385" fill="none" stroke="#0E988C" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Measured data points with error bars -->
+  <g stroke="#0E988C" stroke-width="1" opacity="0.55">
+    <line x1="120" y1="365" x2="120" y2="383"/>
+    <line x1="210" y1="351" x2="210" y2="369"/>
+    <line x1="300" y1="377" x2="300" y2="395"/>
+    <line x1="390" y1="402" x2="390" y2="420"/>
+    <line x1="470" y1="409" x2="470" y2="427"/>
+    <line x1="540" y1="378" x2="540" y2="396"/>
+  </g>
+  <g fill="#0F112A">
+    <circle cx="120" cy="374" r="3.2"/>
+    <circle cx="210" cy="360" r="3.2"/>
+    <circle cx="300" cy="386" r="3.2"/>
+    <circle cx="390" cy="411" r="3.2"/>
+    <circle cx="470" cy="418" r="3.2"/>
+    <circle cx="540" cy="387" r="3.2"/>
+  </g>
+
+  <!-- ===================== RELIABILITY BADGE (top-right) ===================== -->
+  <g transform="translate(566,76)">
+    <circle r="34" fill="none" stroke="#0E988C" stroke-width="1.5" opacity="0.35"/>
+    <circle r="26" fill="#0E988C" opacity="0.10"/>
+    <circle r="26" fill="none" stroke="#0E988C" stroke-width="2"/>
+    <polyline points="-12,1 -3,10 14,-11" fill="none" stroke="#0E988C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="566" y="128" font-family="ui-monospace, monospace" font-size="9" font-weight="700" fill="#0E988C" text-anchor="middle" letter-spacing="2">RELIABLE</text>
 
   <!-- Corner bracket decorations -->
   <g stroke="#2B3062" stroke-width="2" fill="none" opacity="0.5" stroke-linecap="round">
@@ -79,5 +138,5 @@
   </g>
 
   <!-- Subtle label -->
-  <text x="32" y="460" font-family="ui-monospace, monospace" font-size="9" fill="#2B3062" opacity="0.4" letter-spacing="2">GATE RCM · RELIABLE COMPUTATIONAL MODELLING</text>
+  <text x="32" y="462" font-family="ui-monospace, monospace" font-size="9" fill="#2B3062" opacity="0.4" letter-spacing="2">GATE RCM · RELIABLE COMPUTATIONAL MODELLING</text>
 </svg>
