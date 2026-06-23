@@ -198,17 +198,27 @@
     };
 
     function render(mode) {
-      var sorted = pubs.slice().sort(sorters[mode] || sorters.cited);
+      var sorted = pubs.slice().sort(sorters[mode] || sorters.cited).slice(0, 10);
       list.innerHTML = sorted.map(function (p) {
         var year = p.year > 0 ? p.year : "";
         var venue = p.venue ? esc(p.venue) + (year ? ", " + year : "") : (year ? String(year) : "");
-        var cites = p.citations > 0
+        // Citation count is shown only in the "most cited" view.
+        var cites = (mode === "cited" && p.citations > 0)
           ? ' · <span class="pub-cite__cites">' + p.citations + " citation" + (p.citations === 1 ? "" : "s") + "</span>"
           : "";
+        // Highlight RCM members within the author list.
+        var authors = esc(p.authors || "");
+        var members = p.members || [];
+        if (members.length) {
+          authors = authors.replace(
+            new RegExp("\\b(" + members.join("|") + ")\\b", "g"),
+            '<strong class="pub-author--rcm">$1</strong>'
+          );
+        }
         var title = p.url
           ? '<a class="pub-cite__title" href="' + esc(p.url) + '" target="_blank" rel="noopener">' + esc(p.title) + "</a>"
           : '<span class="pub-cite__title">' + esc(p.title) + "</span>";
-        var meta = esc(p.authors || "") + (venue ? " — " + venue : "") + cites;
+        var meta = authors + (venue ? " — " + venue : "") + cites;
         return '<li class="pub-cite">' + title + '<p class="pub-cite__meta">' + meta + "</p></li>";
       }).join("");
       list.setAttribute("aria-busy", "false");
@@ -237,7 +247,7 @@
       .then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
       .then(function (data) {
         pubs = (data && data.publications) || [];
-        if (countEl) countEl.textContent = pubs.length + " publications";
+        if (countEl) countEl.textContent = pubs.length;
         if (!pubs.length) {
           list.innerHTML = '<li class="pub-cite pub-cite--loading">No publications found.</li>';
           return;

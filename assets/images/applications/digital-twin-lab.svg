@@ -1,36 +1,57 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="dtl-title">
-  <title id="dtl-title">Digital Twin Laboratory</title>
-  <rect width="640" height="360" fill="#EEF4FF"/>
-  <!-- subtle dot grid -->
-  <g fill="#2B3062" opacity="0.10">
-    <circle cx="60" cy="60" r="3"/><circle cx="110" cy="60" r="3"/><circle cx="160" cy="60" r="3"/>
-    <circle cx="480" cy="60" r="3"/><circle cx="530" cy="60" r="3"/><circle cx="580" cy="60" r="3"/>
-    <circle cx="60" cy="300" r="3"/><circle cx="110" cy="300" r="3"/>
-    <circle cx="530" cy="300" r="3"/><circle cx="580" cy="300" r="3"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360">
+  <title>Digital Twin Laboratory</title>
+  <defs>
+    <linearGradient id="dtlbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E7F6F5"/>
+      <stop offset="100%" stop-color="#F5F4F9"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="640" height="360" fill="url(#dtlbg)"/>
+
+  <!-- Ground line -->
+  <line x1="0" y1="278" x2="640" y2="278" stroke="#2B3062" stroke-width="1" opacity="0.3"/>
+
+  <!-- Physical asset: solid navy building with teal window grid -->
+  <rect x="140" y="120" width="120" height="158" fill="#0F112A" rx="3"/>
+  <g stroke="#1CCFC0" stroke-width="0.9" opacity="0.45">
+    <line x1="170" y1="120" x2="170" y2="278"/>
+    <line x1="200" y1="120" x2="200" y2="278"/>
+    <line x1="230" y1="120" x2="230" y2="278"/>
+    <line x1="140" y1="150" x2="260" y2="150"/>
+    <line x1="140" y1="184" x2="260" y2="184"/>
+    <line x1="140" y1="218" x2="260" y2="218"/>
+    <line x1="140" y1="252" x2="260" y2="252"/>
   </g>
-  <!-- physical asset: solid navy building -->
-  <g>
-    <rect x="120" y="108" width="116" height="150" rx="8" fill="#0F112A"/>
-    <rect x="140" y="128" width="22" height="22" rx="3" fill="#1CCFC0"/>
-    <rect x="172" y="128" width="22" height="22" rx="3" fill="#1CCFC0" opacity="0.6"/>
-    <rect x="140" y="160" width="22" height="22" rx="3" fill="#1CCFC0" opacity="0.6"/>
-    <rect x="172" y="160" width="22" height="22" rx="3" fill="#1CCFC0"/>
-    <rect x="156" y="200" width="44" height="58" rx="3" fill="#2B3062"/>
+
+  <!-- Digital twin: dashed teal wireframe of the same building -->
+  <rect x="380" y="120" width="120" height="158" rx="3" fill="none" stroke="#0E988C" stroke-width="2" stroke-dasharray="7 5" stroke-linejoin="round"/>
+  <g stroke="#0E988C" stroke-width="1" stroke-dasharray="4 4" opacity="0.7">
+    <line x1="410" y1="120" x2="410" y2="278"/>
+    <line x1="440" y1="120" x2="440" y2="278"/>
+    <line x1="470" y1="120" x2="470" y2="278"/>
+    <line x1="380" y1="150" x2="500" y2="150"/>
+    <line x1="380" y1="184" x2="500" y2="184"/>
+    <line x1="380" y1="218" x2="500" y2="218"/>
+    <line x1="380" y1="252" x2="500" y2="252"/>
   </g>
-  <!-- digital twin: teal dashed wireframe of the same building -->
-  <g fill="none" stroke="#0E988C" stroke-width="2.5" stroke-linejoin="round" stroke-dasharray="7 5">
-    <rect x="404" y="108" width="116" height="150" rx="8"/>
-    <rect x="424" y="128" width="22" height="22" rx="3"/>
-    <rect x="456" y="128" width="22" height="22" rx="3"/>
-    <rect x="424" y="160" width="22" height="22" rx="3"/>
-    <rect x="456" y="160" width="22" height="22" rx="3"/>
-    <rect x="440" y="200" width="44" height="58" rx="3"/>
+
+  <!-- Sync connector (orange dashed) + gold node + data dots -->
+  <line x1="264" y1="184" x2="376" y2="184" stroke="#ED481C" stroke-width="2.4" stroke-dasharray="2 8" stroke-linecap="round"/>
+  <circle cx="320" cy="184" r="10" fill="#FD9600"/>
+  <path d="M316 179l8 5-8 5z" fill="#0F112A"/>
+  <g fill="#ED481C" opacity="0.7">
+    <circle cx="292" cy="162" r="2.5"/><circle cx="320" cy="156" r="2.5"/><circle cx="348" cy="162" r="2.5"/>
   </g>
-  <!-- sync connector -->
-  <line x1="244" y1="183" x2="396" y2="183" stroke="#ED481C" stroke-width="3" stroke-dasharray="2 9" stroke-linecap="round"/>
-  <circle cx="320" cy="183" r="11" fill="#FD9600"/>
-  <path d="M316 178l8 5-8 5z" fill="#0F112A"/>
-  <!-- label -->
-  <text x="120" y="312" font-family="ui-monospace, monospace" font-size="14" letter-spacing="1.5" fill="#0E988C">// CO-INNOVATION</text>
-  <text x="120" y="338" font-family="ui-monospace, monospace" font-size="24" font-weight="700" fill="#0F112A">Digital Twin Laboratory</text>
+
+  <!-- Label -->
+  <rect x="0" y="300" width="640" height="60" fill="#0F112A" opacity="0.06"/>
+  <text x="32" y="336" font-family="ui-monospace, monospace" font-size="16" font-weight="700" fill="#0F112A" letter-spacing="0.5">Digital Twin Laboratory</text>
+  <text x="32" y="354" font-family="ui-monospace, monospace" font-size="10" fill="#0E988C" letter-spacing="1" opacity="0.8">GATE RCM · Application</text>
+
+  <!-- Corner bracket decorations -->
+  <g stroke="#0E988C" stroke-width="2" fill="none" stroke-linecap="round">
+    <polyline points="12,12 12,28 28,28"/>
+    <polyline points="628,12 628,28 612,28"/>
+  </g>
 </svg>

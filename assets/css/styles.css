@@ -772,6 +772,7 @@ small, .small { font-size: var(--fs-small); }
 .pub-toggle button.is-active { background: var(--color-primary); color: #fff; }
 .pub-toggle button:focus-visible { outline: 2px solid var(--color-focus); outline-offset: 2px; }
 .pub-cite--loading { color: var(--color-muted); border-bottom: 0; }
+.pub-author--rcm { color: var(--color-primary); font-weight: 700; }
 
 /* ---------------------------------------------------------------------------
    13. Lab note
