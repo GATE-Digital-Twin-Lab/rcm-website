@@ -777,7 +777,8 @@ small, .small { font-size: var(--fs-small); }
   font-weight: 700;
   font-size: var(--fs-h2);
   color: var(--color-secondary);
-  line-height: 1;
+  line-height: 1.15;
+  padding-bottom: 2px;
 }
 .stat__label {
   font-family: var(--font-mono);
@@ -788,16 +789,29 @@ small, .small { font-size: var(--fs-small); }
 }
 
 /* Lab stat strip (on dark) — 2×2 mobile, 4-across desktop */
+/* Digital Twin Laboratory — dark panel merged inside the Applications section */
+.lab-panel {
+  background: var(--color-primary);
+  color: var(--color-text-invert);
+  border-radius: var(--radius-xl);
+  padding: var(--space-8) var(--space-5);
+  margin-top: var(--space-9);
+}
+@media (min-width: 768px) { .lab-panel { padding: var(--space-9) var(--space-8); } }
+.lab-panel .eyebrow { color: var(--color-accent-bright); }
+.lab-panel .section-header h3 { color: var(--color-text-invert); }
+.lab-panel .section-header p { color: #C9CBE0; }
+
 .lab-stats {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: var(--space-5);
   margin-top: var(--space-7);
   padding-top: var(--space-6);
   border-top: 1px solid rgba(255,255,255,0.12);
 }
 @media (min-width: 768px) {
-  .lab-stats { grid-template-columns: repeat(4, 1fr); gap: var(--space-6); }
+  .lab-stats { grid-template-columns: repeat(3, 1fr); gap: var(--space-6); }
 }
 /* DOM order is <dt> label then <dd> number (valid dl); reverse so the number sits on top */
 .lab-stats .stat { display: flex; flex-direction: column-reverse; gap: var(--space-2); }
