@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360">
+  <title>Urban Environmental Modelling</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E7F6F5"/>
+      <stop offset="100%" stop-color="#F5F4F9"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="640" height="360" fill="url(#sky)"/>
+
+  <!-- Ground line -->
+  <line x1="0" y1="280" x2="640" y2="280" stroke="#2B3062" stroke-width="1" opacity="0.3"/>
+
+  <!-- City blocks (navy/grey) -->
+  <!-- Building 1 -->
+  <rect x="60" y="190" width="50" height="90" fill="#2B3062" opacity="0.8" rx="2"/>
+  <g stroke="#1CCFC0" stroke-width="0.8" opacity="0.4">
+    <line x1="75" y1="190" x2="75" y2="280"/>
+    <line x1="90" y1="190" x2="90" y2="280"/>
+    <line x1="60" y1="215" x2="110" y2="215"/>
+    <line x1="60" y1="240" x2="110" y2="240"/>
+    <line x1="60" y1="265" x2="110" y2="265"/>
+  </g>
+  <!-- Building 2 (taller) -->
+  <rect x="125" y="140" width="65" height="140" fill="#0F112A" opacity="0.85" rx="2"/>
+  <g stroke="#1CCFC0" stroke-width="0.8" opacity="0.4">
+    <line x1="145" y1="140" x2="145" y2="280"/>
+    <line x1="165" y1="140" x2="165" y2="280"/>
+    <line x1="125" y1="170" x2="190" y2="170"/>
+    <line x1="125" y1="200" x2="190" y2="200"/>
+    <line x1="125" y1="230" x2="190" y2="230"/>
+    <line x1="125" y1="260" x2="190" y2="260"/>
+  </g>
+  <!-- Building 3 -->
+  <rect x="205" y="165" width="55" height="115" fill="#2B3062" opacity="0.7" rx="2"/>
+  <g stroke="#1CCFC0" stroke-width="0.8" opacity="0.4">
+    <line x1="223" y1="165" x2="223" y2="280"/>
+    <line x1="241" y1="165" x2="241" y2="280"/>
+    <line x1="205" y1="190" x2="260" y2="190"/>
+    <line x1="205" y1="215" x2="260" y2="215"/>
+    <line x1="205" y1="240" x2="260" y2="240"/>
+    <line x1="205" y1="265" x2="260" y2="265"/>
+  </g>
+  <!-- Building 4 (tallest) -->
+  <rect x="275" y="110" width="70" height="170" fill="#0F112A" rx="2"/>
+  <g stroke="#1CCFC0" stroke-width="0.8" opacity="0.45">
+    <line x1="298" y1="110" x2="298" y2="280"/>
+    <line x1="321" y1="110" x2="321" y2="280"/>
+    <line x1="275" y1="140" x2="345" y2="140"/>
+    <line x1="275" y1="170" x2="345" y2="170"/>
+    <line x1="275" y1="200" x2="345" y2="200"/>
+    <line x1="275" y1="230" x2="345" y2="230"/>
+    <line x1="275" y1="260" x2="345" y2="260"/>
+  </g>
+  <!-- Building 5 -->
+  <rect x="360" y="175" width="60" height="105" fill="#2B3062" opacity="0.75" rx="2"/>
+  <!-- Building 6 -->
+  <rect x="435" y="150" width="55" height="130" fill="#0F112A" opacity="0.8" rx="2"/>
+  <!-- Building 7 -->
+  <rect x="505" y="200" width="70" height="80" fill="#2B3062" opacity="0.65" rx="2"/>
+
+  <!-- Wind/flow streamlines (orange-red) going through the city -->
+  <g stroke="#ED481C" stroke-width="1.6" fill="none" stroke-linecap="round" opacity="0.7">
+    <path d="M0,80 C60,70 80,100 120,85 C160,70 180,60 240,80 C300,100 340,70 400,80 C460,90 500,65 560,75 C600,80 630,70 640,72"/>
+    <path d="M0,110 C50,100 90,130 140,115 C190,100 230,90 280,110 C330,130 380,100 430,110 C480,120 520,95 580,105 C610,110 630,102 640,105"/>
+    <path d="M0,145 C70,135 100,160 160,148 C220,136 260,125 320,145 C380,165 420,135 470,145 C520,155 560,130 610,140 C625,143 635,138 640,140"/>
+  </g>
+  <!-- Arrowheads on flow lines -->
+  <g stroke="#ED481C" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <polyline points="236,76 244,80 236,84"/>
+    <polyline points="426,106 434,110 426,114"/>
+    <polyline points="316,141 324,145 316,149"/>
+  </g>
+
+  <!-- Label -->
+  <rect x="0" y="300" width="640" height="60" fill="#0F112A" opacity="0.06"/>
+  <text x="32" y="336" font-family="ui-monospace, monospace" font-size="16" font-weight="700" fill="#0F112A" letter-spacing="0.5">Urban environmental modelling</text>
+  <text x="32" y="354" font-family="ui-monospace, monospace" font-size="10" fill="#0E988C" letter-spacing="1" opacity="0.8">GATE RCM · Application</text>
+
+  <!-- Corner bracket decorations -->
+  <g stroke="#0E988C" stroke-width="2" fill="none" stroke-linecap="round">
+    <polyline points="12,12 12,28 28,28"/>
+    <polyline points="628,12 628,28 612,28"/>
+  </g>
+</svg>

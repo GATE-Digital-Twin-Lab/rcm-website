@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360">
+  <title>Certification by Simulation — Aircraft Silhouette with Checkmark</title>
+  <defs>
+    <linearGradient id="cert-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F5F4F9"/>
+      <stop offset="100%" stop-color="#E7F6F5"/>
+    </linearGradient>
+    <linearGradient id="cert-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E7F6F5" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#F5F4F9" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" fill="url(#cert-bg)"/>
+
+  <!-- Subtle grid lines (simulation grid) -->
+  <g stroke="#2B3062" stroke-width="0.6" opacity="0.1">
+    <line x1="0" y1="60" x2="640" y2="60"/>
+    <line x1="0" y1="120" x2="640" y2="120"/>
+    <line x1="0" y1="180" x2="640" y2="180"/>
+    <line x1="0" y1="240" x2="640" y2="240"/>
+    <line x1="80" y1="0" x2="80" y2="360"/>
+    <line x1="160" y1="0" x2="160" y2="360"/>
+    <line x1="240" y1="0" x2="240" y2="360"/>
+    <line x1="320" y1="0" x2="320" y2="360"/>
+    <line x1="400" y1="0" x2="400" y2="360"/>
+    <line x1="480" y1="0" x2="480" y2="360"/>
+    <line x1="560" y1="0" x2="560" y2="360"/>
+  </g>
+
+  <!-- Aircraft silhouette (navy) — simplified plan view centered -->
+  <g transform="translate(280,155)" fill="#0F112A" opacity="0.85">
+    <!-- Fuselage -->
+    <ellipse cx="0" cy="0" rx="95" ry="14"/>
+    <!-- Wings -->
+    <path d="M-10,-12 L-50,-65 L-80,-60 L-60,-10 Z"/>
+    <path d="M-10,12 L-50,65 L-80,60 L-60,10 Z"/>
+    <!-- Tail fins -->
+    <path d="M-75,-12 L-95,-35 L-100,-28 L-85,-10 Z"/>
+    <path d="M-75,12 L-95,35 L-100,28 L-85,10 Z"/>
+    <!-- Engine nacelles -->
+    <ellipse cx="-35" cy="-42" rx="14" ry="7" transform="rotate(-15 -35 -42)" fill="#2B3062"/>
+    <ellipse cx="-35" cy="42" rx="14" ry="7" transform="rotate(15 -35 42)" fill="#2B3062"/>
+  </g>
+
+  <!-- Teal flow lines around wing (CFD streamlines) -->
+  <g stroke="#0E988C" stroke-width="1.2" fill="none" stroke-linecap="round" opacity="0.6">
+    <path d="M60,100 C120,95 160,90 200,95 C260,102 290,130 370,125 C430,120 490,115 580,118"/>
+    <path d="M60,125 C130,118 170,112 210,118 C270,127 295,145 375,142 C435,139 490,136 580,138"/>
+    <path d="M60,165 C100,162 140,160 180,163 C230,168 270,175 340,175 C400,175 460,170 580,168"/>
+    <path d="M60,200 C120,202 180,204 230,202 C290,198 330,195 390,198 C450,202 510,204 580,202"/>
+    <path d="M60,220 C130,224 190,227 240,224 C300,219 340,216 400,219 C460,223 510,225 580,222"/>
+  </g>
+
+  <!-- Certification badge / checkmark circle (teal) -->
+  <g transform="translate(510,80)">
+    <circle cx="0" cy="0" r="46" fill="#0E988C" opacity="0.12"/>
+    <circle cx="0" cy="0" r="46" stroke="#0E988C" stroke-width="2.5" fill="none"/>
+    <circle cx="0" cy="0" r="38" stroke="#1CCFC0" stroke-width="1.5" fill="none" opacity="0.5"/>
+    <!-- Large checkmark -->
+    <polyline points="-20,5 -6,20 22,-18" stroke="#0E988C" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- "CERTIFIED" micro text -->
+  <text x="510" y="142" font-family="ui-monospace, monospace" font-size="9" font-weight="700" fill="#0E988C" text-anchor="middle" letter-spacing="2">CERTIFIED</text>
+
+  <!-- Label -->
+  <rect x="0" y="300" width="640" height="60" fill="#0F112A" opacity="0.06"/>
+  <text x="32" y="336" font-family="ui-monospace, monospace" font-size="16" font-weight="700" fill="#0F112A" letter-spacing="0.5">Certification by simulation</text>
+  <text x="32" y="354" font-family="ui-monospace, monospace" font-size="10" fill="#0E988C" letter-spacing="1" opacity="0.8">GATE RCM · Application</text>
+
+  <!-- Corner bracket decorations -->
+  <g stroke="#1CCFC0" stroke-width="2" fill="none" stroke-linecap="round">
+    <polyline points="12,12 12,28 28,28"/>
+    <polyline points="628,12 628,28 612,28"/>
+  </g>
+</svg>

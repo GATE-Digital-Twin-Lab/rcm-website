@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>GATE — Reliable Computational Modelling (RCM)</title>
+  <meta name="description" content="The Reliable Computational Modelling group at GATE: uncertainty quantification and scientific machine learning for trustworthy digital twins.">
+
+  <link rel="canonical" href="https://gate-digital-twin-lab.github.io/rcm-website/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="GATE — Reliable Computational Modelling (RCM)">
+  <meta property="og:description" content="Setting the standard in reliable digital twins. Methods and tools to objectively assess and improve the reliability of data-based, physics-based and mixed models.">
+  <meta property="og:image" content="assets/images/hero.svg">
+  <meta property="og:url" content="https://gate-digital-twin-lab.github.io/rcm-website/">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="GATE — Reliable Computational Modelling (RCM)">
+  <meta name="twitter:description" content="Setting the standard in reliable digital twins. Objective reliability assessment for computational models and digital twins.">
+  <meta name="twitter:image" content="assets/images/hero.svg">
+
+  <meta name="theme-color" content="#0F112A">
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+
+  <!-- Body font — Roboto (Google Fonts) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- Heading font — Cascadia Code (@fontsource via jsDelivr CDN, verified) -->
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/cascadia-code@5/400.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/cascadia-code@5/500.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/cascadia-code@5/600.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/cascadia-code@5/700.css">
+
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- ============================ HEADER ============================ -->
+  <header class="site-header" id="siteHeader">
+    <div class="container site-header__inner">
+      <a class="site-header__brand" href="#top" aria-label="GATE RCM — home">
+        <img src="assets/images/logo-rcm.svg" alt="GATE RCM" width="132" height="36">
+      </a>
+
+      <nav class="nav" id="primaryNav" aria-label="Primary">
+        <ul class="nav__list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#research">Research</a></li>
+          <li><a href="#applications">Applications</a></li>
+          <li><a href="#lab">Lab</a></li>
+          <li><a href="#publications">Publications</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="site-header__actions">
+        <a class="btn btn--primary btn--sm site-header__cta" href="#contact">Let's collaborate</a>
+        <button class="nav-toggle" id="navToggle" type="button"
+                aria-label="Open menu" aria-expanded="false" aria-controls="primaryNav">
+          <span class="nav-toggle__bar" aria-hidden="true"></span>
+          <span class="nav-toggle__bar" aria-hidden="true"></span>
+          <span class="nav-toggle__bar" aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============================ HERO ============================ -->
+    <section id="top" class="hero" aria-labelledby="hero-heading">
+      <div class="container hero__inner">
+        <div class="hero__content reveal">
+          <p class="eyebrow">Reliable Computational Modelling</p>
+          <h1 id="hero-heading">Setting the standard in reliable digital twins</h1>
+          <p class="hero__lead">
+            The reliability of any model is measured by the trust decision-makers can invest in its
+            pronouncements. The RCM group develops approaches and methods to objectively assess and
+            improve the reliability of data-based, physics-based and mixed models.
+          </p>
+          <div class="hero__actions">
+            <a class="btn btn--primary btn--lg" href="#research">Explore our research</a>
+            <a class="btn btn--ghost btn--lg" href="#contact">Partner with us</a>
+          </div>
+        </div>
+
+        <div class="hero__media reveal" aria-hidden="true">
+          <div class="hero__panel">
+            <div class="hero__grid"></div>
+            <img src="assets/images/hero.svg" alt="" width="640" height="480" loading="eager">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ ABOUT ============================ -->
+    <section id="about" class="section section--alt" aria-labelledby="about-heading">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="eyebrow">Overview</p>
+          <h2 id="about-heading">What makes a model reliable</h2>
+        </div>
+
+        <div class="about__grid">
+          <div class="about__lead reveal">
+            <p class="lead">
+              A reliable model is a judiciously constructed model of an engineered system, endowed with
+              a comprehensive uncertainty assessment. Its pronouncements come with a measurable degree
+              of trust — the prerequisite for any model to earn a place in the creation value chain.
+            </p>
+            <p>
+              An increasing number of fields rely on virtual concept-to-creation representations to make
+              design and operation more efficient and to widen the space of possible solutions beyond
+              what experimentation alone can reach. The RCM group develops the methods and tools that
+              make model pronouncements trustworthy across that entire pipeline — so simulation results
+              can be acted upon with confidence.
+            </p>
+          </div>
+
+          <ol class="pipeline reveal" aria-label="The modelling pipeline">
+            <li class="pipeline__step">
+              <span class="pipeline__num">01</span>
+              <span class="pipeline__label">Geometry &amp; preprocessing</span>
+            </li>
+            <li class="pipeline__step">
+              <span class="pipeline__num">02</span>
+              <span class="pipeline__label">Computational mesh</span>
+            </li>
+            <li class="pipeline__step">
+              <span class="pipeline__num">03</span>
+              <span class="pipeline__label">Physics &amp; solver</span>
+            </li>
+            <li class="pipeline__step">
+              <span class="pipeline__num">04</span>
+              <span class="pipeline__label">Postprocessing &amp; reporting</span>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ RESEARCH ============================ -->
+    <section id="research" class="section" aria-labelledby="research-heading">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="eyebrow">Research topics</p>
+          <h2 id="research-heading">Research areas</h2>
+          <p>Four interlocking research lines, united by a single objective: models whose pronouncements can be trusted.</p>
+        </div>
+
+        <div class="grid grid--2">
+          <article class="card reveal">
+            <div class="card__icon" aria-hidden="true">
+              <img src="assets/images/research/multiphysics.svg" alt="" width="56" height="56" loading="lazy">
+            </div>
+            <h3 class="card__title">Reliable multiphysical modelling</h3>
+            <p class="card__text">
+              Covers the full modelling and simulation cycle — geometry preparation, mesh development,
+              boundary and initial conditions, multiphysics coupling, visualization and postprocessing.
+              Applications span the built environment and indoor studies, ground and aerial vehicle
+              simulation, and industrial production. Current use cases include CFD for cultural-heritage
+              preservation, air-pollution dispersion, and certification of passenger aircraft.
+            </p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card__icon" aria-hidden="true">
+              <img src="assets/images/research/uncertainty-quantification.svg" alt="" width="56" height="56" loading="lazy">
+            </div>
+            <h3 class="card__title">Uncertainty quantification</h3>
+            <p class="card__text">
+              UQ sits at the border of fundamental and applied research: uncertainty characterization
+              and propagation through complex numerical models, automatic computation verification, and
+              generalized uncertainty calculi. It is applied to design under uncertainty, risk assessment
+              of complex systems, and model validation. Use cases: aircraft certification, aerodynamic
+              design in industry, air-pollution model validation, and machine-learning reliability.
+            </p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card__icon" aria-hidden="true">
+              <img src="assets/images/research/scientific-ml.svg" alt="" width="56" height="56" loading="lazy">
+            </div>
+            <h3 class="card__title">Scientific machine learning</h3>
+            <p class="card__text">
+              Reliability of physics-informed and deep-learning models, applied to surrogate modelling,
+              simulation acceleration, and digital-twin fusion. Current use cases cover aerospace
+              structural modelling and urban analysis.
+            </p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card__icon" aria-hidden="true">
+              <img src="assets/images/research/reliable-language-models.svg" alt="" width="56" height="56" loading="lazy">
+            </div>
+            <h3 class="card__title">Reliable language modelling</h3>
+            <p class="card__text">
+              Equipping question-answering language models with statistical guarantees of validity for
+              critical applications — making language models auditable via methods such as conformal
+              prediction. Applications include knowledge extraction and synthesis for aircraft
+              certification and for medical use.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ APPLICATIONS ============================ -->
+    <section id="applications" class="section section--alt" aria-labelledby="applications-heading">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="eyebrow">Reliable modelling in practice</p>
+          <h2 id="applications-heading">Reliable modelling, applied</h2>
+        </div>
+
+        <div class="grid grid--3">
+          <article class="card card--app reveal">
+            <img src="assets/images/applications/urban-environmental.svg"
+                 alt="CFD visualization of wind and pollutant flow through an urban environment"
+                 width="640" height="360" loading="lazy">
+            <div class="card__body">
+              <h3 class="card__title">Reliable urban environmental modelling</h3>
+              <p class="card__text">
+                How wind, heat and pollutants interact in cities — using CFD to test interventions that
+                improve air quality and pedestrian comfort. Our work includes the ERIES-ValUr wind-tunnel
+                campaign at TU Eindhoven and pedestrian-level wind studies over Sofia.
+              </p>
+              <a class="link link--arrow card__link" href="https://city.gate-ai.eu/" rel="noopener" target="_blank">Read more</a>
+            </div>
+          </article>
+
+          <article class="card card--app reveal">
+            <img src="assets/images/applications/industrial.svg"
+                 alt="Structural simulation of an industrial facility under load"
+                 width="640" height="360" loading="lazy">
+            <div class="card__body">
+              <h3 class="card__title">Reliable industrial modelling</h3>
+              <p class="card__text">
+                Structural and seismic design of industrial facilities, and structural analysis for the
+                automotive industry — engineering decisions backed by quantified confidence in the
+                underlying simulations.
+              </p>
+            </div>
+          </article>
+
+          <article class="card card--app reveal">
+            <img src="assets/images/applications/certification-by-simulation.svg"
+                 alt="Aircraft model used in certification-by-simulation studies"
+                 width="640" height="360" loading="lazy">
+            <div class="card__body">
+              <h3 class="card__title">Certification by simulation</h3>
+              <p class="card__text">
+                Through the unCertify project we are building a UQ framework for simulation-enabled
+                aircraft certification — reducing reliance on costly flight testing while preserving an
+                equivalent level of safety. It is validated on the AIAA CbS challenge.
+              </p>
+            </div>
+          </article>
+        </div>
+
+        <div class="industries reveal">
+          <p class="industries__label">Industries we serve</p>
+          <ul class="industries__list">
+            <li class="tag">Aviation &amp; Automotive</li>
+            <li class="tag">Autonomous vehicles</li>
+            <li class="tag">Energy (wind, nuclear, thermal)</li>
+            <li class="tag">Construction (buildings, bridges, towers)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ DIGITAL TWIN LABORATORY ============================ -->
+    <section id="lab" class="section section--dark" aria-labelledby="lab-heading">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="eyebrow">Digital Twin Laboratory</p>
+          <h2 id="lab-heading">Academic–industrial co-innovation is at the heart of what we do</h2>
+          <p>
+            The Digital Twin Laboratory is where research-grade methods meet real engineering problems.
+            We partner across technology-readiness levels to move reliable modelling from first principles
+            into deployed practice.
+          </p>
+        </div>
+
+        <div class="grid grid--3">
+          <article class="card card--lab reveal">
+            <p class="card--lab__trl">TRL 1+</p>
+            <h3 class="card__title">Academia</h3>
+            <p class="card__text">
+              Joint research-excellence programs that advance the fundamentals of reliable modelling and
+              uncertainty quantification, from basic principles to initial validation.
+            </p>
+          </article>
+
+          <article class="card card--lab reveal">
+            <p class="card--lab__trl">TRL 3+</p>
+            <h3 class="card__title">Industry</h3>
+            <p class="card__text">
+              Industrial knowledge-transfer partnerships that embed verification, validation and UQ into
+              production workflows and bring methods toward system demonstration.
+            </p>
+          </article>
+
+          <article class="card card--lab reveal">
+            <p class="card--lab__trl">TRL 6+</p>
+            <h3 class="card__title">Validation adopters</h3>
+            <p class="card__text">
+              Research-based business services for partners ready to validate and deploy reliable digital
+              twins in mission-relevant environments.
+            </p>
+          </article>
+        </div>
+
+        <dl class="lab-stats reveal" aria-label="Group at a glance">
+          <div class="stat">
+            <dt class="stat__label">Research directions</dt>
+            <dd class="stat__num">4</dd>
+          </div>
+          <div class="stat">
+            <dt class="stat__label">Flagship projects</dt>
+            <dd class="stat__num">3</dd>
+          </div>
+          <div class="stat">
+            <dt class="stat__label">Researchers</dt>
+            <dd class="stat__num">6</dd>
+          </div>
+          <div class="stat">
+            <dt class="stat__label">Network member</dt>
+            <dd class="stat__num">EASN</dd>
+          </div>
+        </dl>
+
+        <p class="lab__note reveal">
+          GATE-RCM is a member of EASN — the European Aeronautics Science Network.
+        </p>
+      </div>
+    </section>
+
+    <!-- ============================ OUTPUTS & PUBLICATIONS ============================ -->
+    <section id="publications" class="section section--alt" aria-labelledby="publications-heading">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="eyebrow">Outputs</p>
+          <h2 id="publications-heading">Selected projects &amp; publications</h2>
+          <p>
+            Outputs from the group's projects across aerospace, urban and industrial modelling. A full,
+            citable publication list is being compiled.
+          </p>
+        </div>
+
+        <ul class="pub-list reveal">
+          <li class="pub-item">
+            <h3 class="pub-item__title">unCertify</h3>
+            <p class="pub-item__desc">
+              A UQ framework for simulation-enabled aircraft certification, validated on the AIAA
+              Certification-by-Simulation challenge (NASA Common Research Model).
+            </p>
+          </li>
+
+          <li class="pub-item">
+            <h3 class="pub-item__title">ERIES-ValUr</h3>
+            <p class="pub-item__desc">
+              Wind-tunnel validation campaign at TU Eindhoven for reliable urban wind and pollution
+              modelling, with the GATE Future Cities team.
+            </p>
+            <a class="link link--arrow pub-item__link" href="https://city.gate-ai.eu/" rel="noopener" target="_blank">Details</a>
+          </li>
+
+          <li class="pub-item">
+            <h3 class="pub-item__title">FVMN — Finite Volume Method Network</h3>
+            <p class="pub-item__desc">
+              A machine-learning surrogate that accelerates CFD for urban wind prediction.
+            </p>
+          </li>
+
+          <li class="pub-item">
+            <h3 class="pub-item__title">EASN membership</h3>
+            <p class="pub-item__desc">
+              GATE-RCM is a member of EASN, the European Aeronautics Science Network.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============================ TEAM ============================ -->
+    <section id="team" class="section" aria-labelledby="team-heading">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="eyebrow">People</p>
+          <h2 id="team-heading">The team</h2>
+        </div>
+
+        <ul class="team-grid">
+          <!-- Principal Investigator (highlighted, first) -->
+          <li class="card card--team card--team-pi reveal">
+            <span class="card--team__badge">Principal Investigator</span>
+            <div class="card--team__photo">
+              <img src="assets/images/team/petar-hristov.jpg"
+                   onerror="this.onerror=null;this.src='assets/images/team/petar-hristov.svg'"
+                   alt="Peter Hristov" width="160" height="160" loading="lazy">
+            </div>
+            <h3 class="card--team__name">Peter Hristov</h3>
+            <p class="card--team__role">Principal Investigator · Experienced Researcher</p>
+            <div class="card--team__meta">
+              <p class="card--team__bio">PhD in uncertainty quantification (University of Liverpool); former postdoc at the Institute for Risk &amp; Uncertainty, collaborating with Airbus UK.</p>
+              <p class="uni-chip">
+                <img class="uni-chip__logo" src="assets/images/universities/liverpool.png" alt="" width="20" height="20" loading="lazy">
+                <span class="uni-chip__name">University of Liverpool</span>
+              </p>
+              <ul class="team-links">
+                <li>
+                  <a class="team-link" href="https://scholar.google.com/citations?user=0IXY-jgAAAAJ&amp;hl=en"
+                     target="_blank" rel="noopener" aria-label="Peter Hristov on Google Scholar">
+                    <svg class="team-link__icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path fill="currentColor" d="M12 3 1 9l11 6 9-4.91V17h2V9L12 3Z"/><path fill="currentColor" d="M6 13.18v3.32L12 20l6-3.5v-3.32l-6 3.27-6-3.27Z"/></svg>
+                  </a>
+                </li>
+                <li>
+                  <a class="team-link" href="https://www.linkedin.com/in/peterohristov/"
+                     target="_blank" rel="noopener" aria-label="Peter Hristov on LinkedIn">
+                    <svg class="team-link__icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path fill="currentColor" d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9h4v12H3V9Zm6 0h3.83v1.64h.05c.53-1 1.84-2.05 3.79-2.05 4.05 0 4.8 2.67 4.8 6.14V21h-4v-5.45c0-1.3-.02-2.97-1.81-2.97-1.81 0-2.09 1.41-2.09 2.87V21H9V9Z"/></svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="card card--team reveal">
+            <div class="card--team__photo">
+              <img src="assets/images/team/mariya-pantusheva.jpg"
+                   onerror="this.onerror=null;this.src='assets/images/team/mariya-pantusheva.svg'"
+                   alt="Mariya Pantusheva" width="160" height="160" loading="lazy">
+            </div>
+            <h3 class="card--team__name">Mariya Pantusheva</h3>
+            <p class="card--team__role">Experienced Researcher</p>
+            <div class="card--team__meta">
+              <p class="card--team__bio">Structural FEA, CFD and fluid–structure interaction; MSc &amp; PhD candidate at UACEG Sofia, with 7+ years in investment design.</p>
+              <p class="uni-chip">
+                <img class="uni-chip__logo" src="assets/images/universities/uaceg.svg" alt="" width="20" height="20" loading="lazy">
+                <span class="uni-chip__name">UACEG, Sofia</span>
+              </p>
+              <ul class="team-links">
+                <li>
+                  <a class="team-link" href="https://scholar.google.com/citations?user=iEXrg9oAAAAJ&amp;hl=en"
+                     target="_blank" rel="noopener" aria-label="Mariya Pantusheva on Google Scholar">
+                    <svg class="team-link__icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path fill="currentColor" d="M12 3 1 9l11 6 9-4.91V17h2V9L12 3Z"/><path fill="currentColor" d="M6 13.18v3.32L12 20l6-3.5v-3.32l-6 3.27-6-3.27Z"/></svg>
+                  </a>
+                </li>
+                <li>
+                  <a class="team-link" href="https://www.linkedin.com/in/mariya-pantusheva/"
+                     target="_blank" rel="noopener" aria-label="Mariya Pantusheva on LinkedIn">
+                    <svg class="team-link__icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path fill="currentColor" d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9h4v12H3V9Zm6 0h3.83v1.64h.05c.53-1 1.84-2.05 3.79-2.05 4.05 0 4.8 2.67 4.8 6.14V21h-4v-5.45c0-1.3-.02-2.97-1.81-2.97-1.81 0-2.09 1.41-2.09 2.87V21H9V9Z"/></svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="card card--team reveal">
+            <div class="card--team__photo">
+              <img src="assets/images/team/radostin-mitkov.jpg"
+                   onerror="this.onerror=null;this.src='assets/images/team/radostin-mitkov.svg'"
+                   alt="Radostin Mitkov" width="160" height="160" loading="lazy">
+            </div>
+            <h3 class="card--team__name">Radostin Mitkov</h3>
+            <p class="card--team__role">Junior Researcher</p>
+            <div class="card--team__meta">
+              <p class="card--team__bio">Urban wind CFD and air-quality modelling; MEng Aerospace Engineering, University of Southampton.</p>
+              <p class="uni-chip">
+                <img class="uni-chip__logo" src="assets/images/universities/southampton.png" alt="" width="20" height="20" loading="lazy">
+                <span class="uni-chip__name">University of Southampton</span>
+              </p>
+              <ul class="team-links">
+                <li>
+                  <a class="team-link" href="https://scholar.google.com/citations?user=WXTBopgAAAAJ&amp;hl=en"
+                     target="_blank" rel="noopener" aria-label="Radostin Mitkov on Google Scholar">
+                    <svg class="team-link__icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path fill="currentColor" d="M12 3 1 9l11 6 9-4.91V17h2V9L12 3Z"/><path fill="currentColor" d="M6 13.18v3.32L12 20l6-3.5v-3.32l-6 3.27-6-3.27Z"/></svg>
+                  </a>
+                </li>
+                <li>
+                  <a class="team-link" href="https://www.linkedin.com/in/radostin-mitkov/"
+                     target="_blank" rel="noopener" aria-label="Radostin Mitkov on LinkedIn">
+                    <svg class="team-link__icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path fill="currentColor" d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9h4v12H3V9Zm6 0h3.83v1.64h.05c.53-1 1.84-2.05 3.79-2.05 4.05 0 4.8 2.67 4.8 6.14V21h-4v-5.45c0-1.3-.02-2.97-1.81-2.97-1.81 0-2.09 1.41-2.09 2.87V21H9V9Z"/></svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="card card--team reveal">
+            <div class="card--team__photo">
+              <img src="assets/images/team/alexander-kostadinov.jpg"
+                   onerror="this.onerror=null;this.src='assets/images/team/alexander-kostadinov.svg'"
+                   alt="Alexander Kostadinov" width="160" height="160" loading="lazy">
+            </div>
+            <h3 class="card--team__name">Alexander Kostadinov</h3>
+            <p class="card--team__role">Junior Researcher</p>
+            <div class="card--team__meta">
+              <p class="card--team__bio">ML, UQ and urban air-quality forecasting; BSc Computer Science and MSc Big Data, Sofia University.</p>
+              <p class="uni-chip">
+                <img class="uni-chip__logo" src="assets/images/universities/sofia-university.png" alt="" width="20" height="20" loading="lazy">
+                <span class="uni-chip__name">Sofia University</span>
+              </p>
+              <ul class="team-links">
+                <li>
+                  <a class="team-link" href="https://scholar.google.com/citations?user=qN0etJcAAAAJ&amp;hl=en"
+                     target="_blank" rel="noopener" aria-label="Alexander Kostadinov on Google Scholar">
+                    <svg class="team-link__icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path fill="currentColor" d="M12 3 1 9l11 6 9-4.91V17h2V9L12 3Z"/><path fill="currentColor" d="M6 13.18v3.32L12 20l6-3.5v-3.32l-6 3.27-6-3.27Z"/></svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="card card--team reveal">
+            <div class="card--team__photo">
+              <img src="assets/images/team/premjit-saha.jpg"
+                   onerror="this.onerror=null;this.src='assets/images/team/premjit-saha.svg'"
+                   alt="Premjit Saha" width="160" height="160" loading="lazy">
+            </div>
+            <h3 class="card--team__name">Premjit Saha</h3>
+            <p class="card--team__role">Researcher</p>
+            <div class="card--team__meta">
+              <p class="card--team__bio">Uncertainty quantification and robust control; PhD in polynomial-chaos UQ, University at Buffalo (SUNY).</p>
+              <p class="uni-chip">
+                <img class="uni-chip__logo" src="assets/images/universities/buffalo.png" alt="" width="20" height="20" loading="lazy">
+                <span class="uni-chip__name">University at Buffalo, SUNY</span>
+              </p>
+              <ul class="team-links">
+                <li>
+                  <a class="team-link" href="https://scholar.google.com/citations?user=JW0vPgIAAAAJ&amp;hl=en"
+                     target="_blank" rel="noopener" aria-label="Premjit Saha on Google Scholar">
+                    <svg class="team-link__icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path fill="currentColor" d="M12 3 1 9l11 6 9-4.91V17h2V9L12 3Z"/><path fill="currentColor" d="M6 13.18v3.32L12 20l6-3.5v-3.32l-6 3.27-6-3.27Z"/></svg>
+                  </a>
+                </li>
+                <li>
+                  <a class="team-link" href="https://www.linkedin.com/in/premjitsaha/"
+                     target="_blank" rel="noopener" aria-label="Premjit Saha on LinkedIn">
+                    <svg class="team-link__icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path fill="currentColor" d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9h4v12H3V9Zm6 0h3.83v1.64h.05c.53-1 1.84-2.05 3.79-2.05 4.05 0 4.8 2.67 4.8 6.14V21h-4v-5.45c0-1.3-.02-2.97-1.81-2.97-1.81 0-2.09 1.41-2.09 2.87V21H9V9Z"/></svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="card card--team reveal">
+            <div class="card--team__photo">
+              <img src="assets/images/team/zlatan-dimitrov.jpg"
+                   onerror="this.onerror=null;this.src='assets/images/team/zlatan-dimitrov.svg'"
+                   alt="Zlatan Dimitrov" width="160" height="160" loading="lazy">
+            </div>
+            <h3 class="card--team__name">Zlatan Dimitrov</h3>
+            <p class="card--team__role">Researcher</p>
+            <div class="card--team__meta">
+              <p class="card--team__bio">Electromagnetic exposure assessment, numerical methods and ML for simulations; Sofia University.</p>
+              <p class="uni-chip">
+                <img class="uni-chip__logo" src="assets/images/universities/sofia-university.png" alt="" width="20" height="20" loading="lazy">
+                <span class="uni-chip__name">Sofia University</span>
+              </p>
+              <ul class="team-links">
+                <li>
+                  <a class="team-link" href="https://scholar.google.com/citations?user=Y6CnWHYAAAAJ&amp;hl=en"
+                     target="_blank" rel="noopener" aria-label="Zlatan Dimitrov on Google Scholar">
+                    <svg class="team-link__icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path fill="currentColor" d="M12 3 1 9l11 6 9-4.91V17h2V9L12 3Z"/><path fill="currentColor" d="M6 13.18v3.32L12 20l6-3.5v-3.32l-6 3.27-6-3.27Z"/></svg>
+                  </a>
+                </li>
+                <li>
+                  <a class="team-link" href="https://www.linkedin.com/in/zlatan-dimitrov/"
+                     target="_blank" rel="noopener" aria-label="Zlatan Dimitrov on LinkedIn">
+                    <svg class="team-link__icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path fill="currentColor" d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9h4v12H3V9Zm6 0h3.83v1.64h.05c.53-1 1.84-2.05 3.79-2.05 4.05 0 4.8 2.67 4.8 6.14V21h-4v-5.45c0-1.3-.02-2.97-1.81-2.97-1.81 0-2.09 1.41-2.09 2.87V21H9V9Z"/></svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="card card--team reveal">
+            <div class="card--team__photo">
+              <img src="assets/images/team/valentin-nikolov.jpg"
+                   onerror="this.onerror=null;this.src='assets/images/team/valentin-nikolov.svg'"
+                   alt="Valentin Nikolov" width="160" height="160" loading="lazy">
+            </div>
+            <h3 class="card--team__name">Valentin Nikolov</h3>
+            <p class="card--team__role">Researcher</p>
+            <div class="card--team__meta">
+              <p class="card--team__bio">Member of the Reliable Computational Modelling group.</p>
+            </div>
+          </li>
+
+          <li class="card card--team reveal">
+            <div class="card--team__photo">
+              <img src="assets/images/team/alexander-yordanov.jpg"
+                   onerror="this.onerror=null;this.src='assets/images/team/alexander-yordanov.svg'"
+                   alt="Alexander Yordanov" width="160" height="160" loading="lazy">
+            </div>
+            <h3 class="card--team__name">Alexander Yordanov</h3>
+            <p class="card--team__role">Researcher</p>
+            <div class="card--team__meta">
+              <p class="card--team__bio">Member of the Reliable Computational Modelling group.</p>
+              <ul class="team-links">
+                <li>
+                  <a class="team-link" href="https://www.linkedin.com/in/alexander05yordanov/"
+                     target="_blank" rel="noopener" aria-label="Alexander Yordanov on LinkedIn">
+                    <svg class="team-link__icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path fill="currentColor" d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9h4v12H3V9Zm6 0h3.83v1.64h.05c.53-1 1.84-2.05 3.79-2.05 4.05 0 4.8 2.67 4.8 6.14V21h-4v-5.45c0-1.3-.02-2.97-1.81-2.97-1.81 0-2.09 1.41-2.09 2.87V21H9V9Z"/></svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============================ CONTACT ============================ -->
+    <section id="contact" class="section section--dark contact" aria-labelledby="contact-heading">
+      <div class="container contact__inner">
+        <div class="contact__intro reveal">
+          <p class="eyebrow eyebrow--orange">Get in touch</p>
+          <h2 id="contact-heading">Let's collaborate</h2>
+          <p class="lead">
+            We work with academia, industry and public institutions to make computational models
+            trustworthy. If you have a modelling or uncertainty-quantification challenge, we would like
+            to hear about it.
+          </p>
+          <div class="contact__actions">
+            <a class="btn btn--primary btn--lg" href="mailto:contact@gate-ai.eu">Email the group</a>
+          </div>
+        </div>
+
+        <div class="contact__details reveal">
+          <div class="contact__block">
+            <p class="contact__label">Address</p>
+            <address class="contact__address">
+              GATE Institute<br>
+              5 James Bourchier Blvd<br>
+              1164 Sofia, Bulgaria
+            </address>
+          </div>
+          <div class="contact__block">
+            <p class="contact__label">Follow</p>
+            <ul class="social">
+              <li><a class="social__link" href="https://www.facebook.com/gateinstitute" aria-label="GATE on Facebook" rel="noopener" target="_blank">Facebook</a></li>
+              <li><a class="social__link" href="https://www.youtube.com/@gateinstitute" aria-label="GATE on YouTube" rel="noopener" target="_blank">YouTube</a></li>
+              <li><a class="social__link" href="https://www.linkedin.com/company/gate-institute/" aria-label="GATE on LinkedIn" rel="noopener" target="_blank">LinkedIn</a></li>
+              <li><a class="social__link" href="https://x.com/gate_institute" aria-label="GATE on X" rel="noopener" target="_blank">X</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================ FOOTER ============================ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="site-footer__grid">
+        <div class="site-footer__brand">
+          <img src="assets/images/logo-rcm.svg" alt="GATE RCM" width="132" height="36">
+          <p class="site-footer__blurb">
+            The Reliable Computational Modelling group at the GATE Institute — Big Data for Smart
+            Society, Sofia University.
+          </p>
+          <a class="link link--arrow site-footer__parent" href="https://www.gate-ai.eu/" rel="noopener" target="_blank">Part of the GATE Institute</a>
+        </div>
+
+        <nav class="site-footer__col" aria-label="GATE">
+          <h4>GATE</h4>
+          <ul>
+            <li><a href="https://www.gate-ai.eu/about/" rel="noopener" target="_blank">About</a></li>
+            <li><a href="https://www.gate-ai.eu/research/" rel="noopener" target="_blank">Research</a></li>
+            <li><a href="https://www.gate-ai.eu/business/" rel="noopener" target="_blank">Business</a></li>
+          </ul>
+        </nav>
+
+        <nav class="site-footer__col" aria-label="More from GATE">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="https://www.gate-ai.eu/infrastructure/" rel="noopener" target="_blank">Infrastructure</a></li>
+            <li><a href="https://www.gate-ai.eu/news/" rel="noopener" target="_blank">News</a></li>
+            <li><a href="https://www.gate-ai.eu/contact/" rel="noopener" target="_blank">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="site-footer__col site-footer__funding">
+          <h4>Funded by</h4>
+          <p class="site-footer__funding-line">
+            The project "Big Data for Smart Society" (GATE) is funded by the Horizon 2020 Teaming
+            programme and co-funded by the European Union.
+          </p>
+          <div class="site-footer__funding-logos">
+            <img src="assets/images/funding/eu.png" alt="Co-funded by the European Union" width="67" height="48" loading="lazy">
+            <img src="assets/images/funding/pniidit.png" alt="Programme &quot;Research, Innovation and Digitalisation for Intelligent Transformation&quot; (PNIIDIT)" width="62" height="48" loading="lazy">
+          </div>
+        </div>
+      </div>
+
+      <div class="site-footer__bottom">
+        <p>© 2026 GATE Institute. All rights reserved.</p>
+        <ul class="site-footer__legal">
+          <li><a href="https://www.gate-ai.eu/en/privacy-policy/" rel="noopener" target="_blank">Privacy Policy</a></li>
+          <li><a href="https://www.gate-ai.eu/en/privacy-policy/" rel="noopener" target="_blank">Cookies</a></li>
+          <li><a href="https://www.gate-ai.eu/" rel="noopener" target="_blank">Terms of Use</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>

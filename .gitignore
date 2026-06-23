@@ -1,0 +1,10 @@
+# OS and editor cruft — keep this repo clean
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+node_modules/
+
+# Claude Code local config — never commit editor/AI tooling state
+.claude/
