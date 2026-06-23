@@ -206,13 +206,15 @@
         var cites = (mode === "cited" && p.citations > 0)
           ? ' · <span class="pub-cite__cites">' + p.citations + " citation" + (p.citations === 1 ? "" : "s") + "</span>"
           : "";
-        // Highlight RCM members within the author list.
+        // Highlight RCM members within the author list — the whole name (leading initials/first
+        // names + surname), not just the surname. Leading tokens require trailing whitespace, so a
+        // match can never reach across the ", " that separates authors.
         var authors = esc(p.authors || "");
         var members = p.members || [];
         if (members.length) {
           authors = authors.replace(
-            new RegExp("\\b(" + members.join("|") + ")\\b", "g"),
-            '<strong class="pub-author--rcm">$1</strong>'
+            new RegExp("(?:[A-Z][\\w.'-]*\\s+)*(?:" + members.join("|") + ")\\b", "g"),
+            '<strong class="pub-author--rcm">$&</strong>'
           );
         }
         var title = p.url
