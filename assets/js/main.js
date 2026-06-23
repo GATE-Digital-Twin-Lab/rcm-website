@@ -20,6 +20,7 @@
     initMobileNav();
     initScrollReveal();
     initActiveNav();
+    initPublications();
   });
 
   /* ---------------------------------------------------------------------------
@@ -173,5 +174,80 @@
     sections.forEach(function (section) {
       observer.observe(section);
     });
+  }
+
+  /* ---------------------------------------------------------------------------
+     Publications — loaded from JSON, sortable (most cited / most recent)
+     --------------------------------------------------------------------------- */
+  function initPublications() {
+    var list = document.getElementById("pub-list");
+    if (!list) return;
+    var countEl = document.getElementById("pub-count");
+    var buttons = Array.prototype.slice.call(document.querySelectorAll("[data-pub-sort]"));
+
+    function esc(s) {
+      return String(s == null ? "" : s)
+        .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;").replace(/'/g, "&#39;");
+    }
+
+    var pubs = [];
+    var sorters = {
+      cited: function (a, b) { return (b.citations - a.citations) || (b.year - a.year) || a.title.localeCompare(b.title); },
+      recent: function (a, b) { return (b.year - a.year) || (b.citations - a.citations) || a.title.localeCompare(b.title); }
+    };
+
+    function render(mode) {
+      var sorted = pubs.slice().sort(sorters[mode] || sorters.cited);
+      list.innerHTML = sorted.map(function (p) {
+        var year = p.year > 0 ? p.year : "";
+        var venue = p.venue ? esc(p.venue) + (year ? ", " + year : "") : (year ? String(year) : "");
+        var cites = p.citations > 0
+          ? ' · <span class="pub-cite__cites">' + p.citations + " citation" + (p.citations === 1 ? "" : "s") + "</span>"
+          : "";
+        var title = p.url
+          ? '<a class="pub-cite__title" href="' + esc(p.url) + '" target="_blank" rel="noopener">' + esc(p.title) + "</a>"
+          : '<span class="pub-cite__title">' + esc(p.title) + "</span>";
+        var meta = esc(p.authors || "") + (venue ? " — " + venue : "") + cites;
+        return '<li class="pub-cite">' + title + '<p class="pub-cite__meta">' + meta + "</p></li>";
+      }).join("");
+      list.setAttribute("aria-busy", "false");
+    }
+
+    function activate(mode) {
+      buttons.forEach(function (b) {
+        var on = b.getAttribute("data-pub-sort") === mode;
+        b.classList.toggle("is-active", on);
+        b.setAttribute("aria-pressed", String(on));
+      });
+      render(mode);
+    }
+
+    buttons.forEach(function (b) {
+      b.addEventListener("click", function () { activate(b.getAttribute("data-pub-sort")); });
+    });
+
+    if (!window.fetch) {
+      list.innerHTML =
+        '<li class="pub-cite pub-cite--loading">Publications require a modern browser — see each member’s Google Scholar profile, linked on their team card.</li>';
+      return;
+    }
+
+    fetch("assets/data/publications.json", { cache: "no-cache" })
+      .then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
+      .then(function (data) {
+        pubs = (data && data.publications) || [];
+        if (countEl) countEl.textContent = pubs.length + " publications";
+        if (!pubs.length) {
+          list.innerHTML = '<li class="pub-cite pub-cite--loading">No publications found.</li>';
+          return;
+        }
+        activate("cited");
+      })
+      .catch(function () {
+        list.innerHTML =
+          '<li class="pub-cite pub-cite--loading">Publications couldn’t be loaded — see each member’s Google Scholar profile, linked on their team card.</li>';
+        list.setAttribute("aria-busy", "false");
+      });
   }
 })();

@@ -1,0 +1,629 @@
+{
+  "generated": "2026-06",
+  "source": "Google Scholar (6 GATE-RCM member profiles)",
+  "count": 55,
+  "publications": [
+    {
+      "title": "Air Pollution Dispersion Modelling in Urban Environment Using CFD: A Systematic Review",
+      "authors": "M Pantusheva, R Mitkov, PO Hristov, D Petrova-Antonova",
+      "venue": "Atmosphere 13 (10), 1640",
+      "year": 2022,
+      "citations": 138,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0IXY-jgAAAAJ&citation_for_view=0IXY-jgAAAAJ:ufrVoPGSRksC",
+      "members": [
+        "Hristov",
+        "Pantusheva",
+        "Mitkov"
+      ]
+    },
+    {
+      "title": "From inference to design: A comprehensive framework for uncertainty quantification in engineering with limited information",
+      "authors": "A Gray, A Wimbush, M de Angelis, PO Hristov, D Calleja, E Miralles-Dolz, et al.",
+      "venue": "Mechanical Systems and Signal Processing 165, 108210",
+      "year": 2022,
+      "citations": 62,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0IXY-jgAAAAJ&citation_for_view=0IXY-jgAAAAJ:Y0pCki6q_DkC",
+      "members": [
+        "Hristov"
+      ]
+    },
+    {
+      "title": "Enabling City Digital Twins Through Urban Living Labs",
+      "authors": "PO Hristov, D Petrova-Antonova, S Ilieva, R Rizov",
+      "venue": "The International Archives of the Photogrammetry, Remote Sensing and Spatial …",
+      "year": 2022,
+      "citations": 26,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0IXY-jgAAAAJ&citation_for_view=0IXY-jgAAAAJ:_FxGoFyzp5QC",
+      "members": [
+        "Hristov"
+      ]
+    },
+    {
+      "title": "A Scalable and User-Friendly Framework Integrating IoT and Digital Twins for Home Energy Management Systems",
+      "authors": "M Stogia, V Naserentin, A Dimara, O Eleftheriou, I Tzitzios, et al.",
+      "venue": "Applied Sciences 14 (24), 11834",
+      "year": 2024,
+      "citations": 24,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=iEXrg9oAAAAJ&citation_for_view=iEXrg9oAAAAJ:umqufdRvDiIC",
+      "members": [
+        "Pantusheva"
+      ]
+    },
+    {
+      "title": "Adaptive Gaussian process emulators for efficient reliability analysis",
+      "authors": "PO Hristov, FA DiazDelaO, U Farooq, KJ Kubiak",
+      "venue": "Applied Mathematical Modelling 71, 138-151",
+      "year": 2019,
+      "citations": 24,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0IXY-jgAAAAJ&citation_for_view=0IXY-jgAAAAJ:2osOgNQ5qMEC",
+      "members": [
+        "Hristov"
+      ]
+    },
+    {
+      "title": "Typical damage in steel storage tanks in operation",
+      "authors": "L Zdravkov, M Pantusheva",
+      "venue": "Procedia Structural Integrity 22, 291-298",
+      "year": 2019,
+      "citations": 17,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=iEXrg9oAAAAJ&citation_for_view=iEXrg9oAAAAJ:GtLg2Ama23sC",
+      "members": [
+        "Pantusheva"
+      ]
+    },
+    {
+      "title": "Using the Octree Immersed Boundary Method for urban wind CFD simulations",
+      "authors": "R Mitkov, M Pantusheva, V Naserentin, PO Hristov, D Wästberg, F Hunger, et al.",
+      "venue": "IFAC-PapersOnLine 55 (11), 179-184",
+      "year": 2022,
+      "citations": 15,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0IXY-jgAAAAJ&citation_for_view=0IXY-jgAAAAJ:WF5omc3nYNoC",
+      "members": [
+        "Hristov",
+        "Pantusheva",
+        "Mitkov"
+      ]
+    },
+    {
+      "title": "Probabilistic sensitivity analysis to understand the influence of micromechanical properties of wood on its macroscopic response",
+      "authors": "PO Hristov, FA DiazDelaO, EIS Flores, CF Guzmán, U Farooq",
+      "venue": "Composite Structures 181, 229-239",
+      "year": 2017,
+      "citations": 14,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0IXY-jgAAAAJ&citation_for_view=0IXY-jgAAAAJ:9yKSN-GCB0IC",
+      "members": [
+        "Hristov"
+      ]
+    },
+    {
+      "title": "The Role of Computational Fluid Dynamics within City Digital Twins: Opportunities and Challenges",
+      "authors": "R Mitkov, M Pantusheva, D Petrova-Antonova, V Naserentin, A Logg",
+      "venue": "ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information …",
+      "year": 2024,
+      "citations": 13,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=iEXrg9oAAAAJ&citation_for_view=iEXrg9oAAAAJ:a9-T7VOCCH8C",
+      "members": [
+        "Pantusheva",
+        "Mitkov"
+      ]
+    },
+    {
+      "title": "Towards first urban data space in Bulgaria",
+      "authors": "V Vassilev, D Petrova-Antonova, T Bali, S Radu, V Sowinski-Mydlarz, et al.",
+      "venue": "2022 IEEE International Smart Cities Conference (ISC2), 1-7",
+      "year": 2022,
+      "citations": 11,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0IXY-jgAAAAJ&citation_for_view=0IXY-jgAAAAJ:0EnyYjriUFMC",
+      "members": [
+        "Hristov"
+      ]
+    },
+    {
+      "title": "Predictive Modeling of Indoor Environmental Parameters for Assessing Comfort Conditions in a Kindergarten Setting",
+      "authors": "R Mitkov, D Petrova-Antonova, PO Hristov",
+      "venue": "Toxics 11 (8), 709",
+      "year": 2023,
+      "citations": 9,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0IXY-jgAAAAJ&citation_for_view=0IXY-jgAAAAJ:roLk4NBRz8UC",
+      "members": [
+        "Hristov",
+        "Mitkov"
+      ]
+    },
+    {
+      "title": "TOWARDS ENERGY ATLAS OF SOFIA CITY IN BULGARIA",
+      "authors": "LL Vitanova, D Petrova-Antonova, PO Hristov, E Shirinyan",
+      "venue": "The International Archives of the Photogrammetry, Remote Sensing and Spatial …",
+      "year": 2023,
+      "citations": 8,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0IXY-jgAAAAJ&citation_for_view=0IXY-jgAAAAJ:Se3iqnhoufwC",
+      "members": [
+        "Hristov"
+      ]
+    },
+    {
+      "title": "Subset simulation for probabilistic computer models",
+      "authors": "PO Hristov, FA DiazDelaO",
+      "venue": "Applied Mathematical Modelling 120, 769-785",
+      "year": 2023,
+      "citations": 7,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0IXY-jgAAAAJ&citation_for_view=0IXY-jgAAAAJ:LkGwnXOMwfcC",
+      "members": [
+        "Hristov"
+      ]
+    },
+    {
+      "title": "Evaluation of Emission Factors for Particulate Matter and NO2 from Road Transport in Sofia, Bulgaria",
+      "authors": "M Velizarova, R Dimitrova, PO Hristov, A Burov, D Brezov, E Hristova, et al.",
+      "venue": "Atmosphere 15 (7), 773",
+      "year": 2024,
+      "citations": 6,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0IXY-jgAAAAJ&citation_for_view=0IXY-jgAAAAJ:hqOjcs7Dif8C",
+      "members": [
+        "Hristov"
+      ]
+    },
+    {
+      "title": "Towards a Framework for Non-intrusive Uncertainty Propagation in the Preliminary Design of Aircraft Systems",
+      "authors": "I Ioannou, PO Hristov, HK Yong, R Marsh, E Silva, A Sobester, et al.",
+      "venue": "AIAA SCITECH 2023 Forum, 2373",
+      "year": 2023,
+      "citations": 5,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0IXY-jgAAAAJ&citation_for_view=0IXY-jgAAAAJ:W7OEmFMy1HYC",
+      "members": [
+        "Hristov"
+      ]
+    },
+    {
+      "title": "Seismic Analysis of Steel Storage Tanks: Overview of Design Codes Used in Practice",
+      "authors": "M Pantusheva",
+      "venue": "Int. Jubil. Sci. Conf.“75th Anniv. UACEG” Univ. Archit. Civ. Eng. Geod 1, 15",
+      "year": 2017,
+      "citations": 5,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=iEXrg9oAAAAJ&citation_for_view=iEXrg9oAAAAJ:_FM0Bhl9EiAC",
+      "members": [
+        "Pantusheva"
+      ]
+    },
+    {
+      "title": "History Matching with Subset Simulation",
+      "authors": "ZT Gong, FA DiazDelaO, PO Hristov, M Beer",
+      "venue": "International Journal for Uncertainty Quantification 11 (5)",
+      "year": 2021,
+      "citations": 4,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0IXY-jgAAAAJ&citation_for_view=0IXY-jgAAAAJ:Tyk-4Ss8FVUC",
+      "members": [
+        "Hristov"
+      ]
+    },
+    {
+      "title": "Bayesian Calibration and Probability Bounds Analysis Solution to the Nasa 2020 UQ Challenge on Optimization Under Uncertainty",
+      "authors": "A Wimbush, A Gray, R Rocchetta, M de Angelis, PO Hristov, et al.",
+      "venue": "Proceedings of the 30th European Safety and Reliability Conference and the …",
+      "year": 2020,
+      "citations": 4,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0IXY-jgAAAAJ&citation_for_view=0IXY-jgAAAAJ:UeHWp8X0CEIC",
+      "members": [
+        "Hristov"
+      ]
+    },
+    {
+      "title": "Adaptive emulation-based reliability analysis",
+      "authors": "PO Hristov, FA DiazDelaO, KJ Kubiak, U Farooq",
+      "venue": "Proceedings of the 2nd International Conference on Uncertainty …",
+      "year": 2017,
+      "citations": 4,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0IXY-jgAAAAJ&citation_for_view=0IXY-jgAAAAJ:u-x6o8ySG0sC",
+      "members": [
+        "Hristov"
+      ]
+    },
+    {
+      "title": "On the variety and adequacy of different solution verification approaches in computational wind engineering",
+      "authors": "R Mitkov, PO Hristov, F Hunger, A Mark",
+      "venue": "Journal of Physics: Conference Series 3027 (1), 012060",
+      "year": 2025,
+      "citations": 3,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0IXY-jgAAAAJ&citation_for_view=0IXY-jgAAAAJ:5nxA0vEk-isC",
+      "members": [
+        "Hristov",
+        "Mitkov"
+      ]
+    },
+    {
+      "title": "Semantic enrichment and analysis of building energy consumption data for the city of Sofia",
+      "authors": "T Koleva, L Vitanova, D Petrova-Antonova, A Kostadinov",
+      "venue": "IFIP International Conference on Artificial Intelligence Applications and …",
+      "year": 2024,
+      "citations": 3,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qN0etJcAAAAJ&citation_for_view=qN0etJcAAAAJ:u5HHmVD_uO8C",
+      "members": [
+        "Kostadinov"
+      ]
+    },
+    {
+      "title": "Summary of the Second AIAA Uncertainty Quantification Challenge Problem for Aerodynamics",
+      "authors": "AW Cary, M Rumpfkeil, PO Hristov, JA Schaefer",
+      "venue": "AIAA SCITECH 2026 Forum, 0091",
+      "year": 2026,
+      "citations": 2,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0IXY-jgAAAAJ&citation_for_view=0IXY-jgAAAAJ:KlAtU1dfN6UC",
+      "members": [
+        "Hristov"
+      ]
+    },
+    {
+      "title": "Towards a Comprehensive Workflow for Mesh Generation in Urban Wind Engineering using CFD",
+      "authors": "M Pantusheva, D Petrova-Antonova, V Naserentin, R Mitkov, G Spaias, et al.",
+      "venue": "Journal of Physics: Conference Series 3027 (1), 012079",
+      "year": 2025,
+      "citations": 2,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=iEXrg9oAAAAJ&citation_for_view=iEXrg9oAAAAJ:sNmaIFBj_lkC",
+      "members": [
+        "Pantusheva",
+        "Mitkov"
+      ]
+    },
+    {
+      "title": "Analytical Gradient and Hessian Evaluation for System Identification using State-Parameter Transition Tensors",
+      "authors": "P Saha, T Singh",
+      "venue": "IFAC-PapersOnLine 58 (28), 780-785",
+      "year": 2024,
+      "citations": 2,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JW0vPgIAAAAJ&citation_for_view=JW0vPgIAAAAJ:IjCSPb-OGe4C",
+      "members": [
+        "Saha"
+      ]
+    },
+    {
+      "title": "How to Exploit What We Know About Input and Model: A Trans-probabilistic Approach to the 2022 AIAA UQ Challenge",
+      "authors": "PO Hristov, I Ioannou, S Ferson",
+      "venue": "AIAA SCITECH 2024 Forum, 0944",
+      "year": 2024,
+      "citations": 2,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0IXY-jgAAAAJ&citation_for_view=0IXY-jgAAAAJ:UebtZRa9Y70C",
+      "members": [
+        "Hristov"
+      ]
+    },
+    {
+      "title": "Non-intrusive Weather Analysis for Sustainable Preservation in Cultural Heritage Buildings",
+      "authors": "A Dimara, M Pantusheva, R Mitkov, V Naserentin, G Spaias, O Eleftheriou, et al.",
+      "venue": "IFIP International Conference on Artificial Intelligence Applications and …",
+      "year": 2024,
+      "citations": 2,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=iEXrg9oAAAAJ&citation_for_view=iEXrg9oAAAAJ:4hFrxpcac9AC",
+      "members": [
+        "Pantusheva",
+        "Mitkov"
+      ]
+    },
+    {
+      "title": "Numerical Analysis of Vertical Steel Storage Tanks in ANSYS Workbench and ANSYS Mechanical APDL",
+      "authors": "M Pantusheva, L Zdravkov",
+      "venue": "ANNUAL OF THE UNIVERSITY OF ARCHITECTURE, CIVIL ENGINEERING AND GEODESYSOFIA …",
+      "year": 2019,
+      "citations": 2,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=iEXrg9oAAAAJ&citation_for_view=iEXrg9oAAAAJ:9pM33mqn1YgC",
+      "members": [
+        "Pantusheva"
+      ]
+    },
+    {
+      "title": "Numerical modelling and uncertainty quantification of biodiesel filters",
+      "authors": "PO Hristov",
+      "venue": "PQDT-UK & Ireland",
+      "year": 2018,
+      "citations": 2,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0IXY-jgAAAAJ&citation_for_view=0IXY-jgAAAAJ:u5HHmVD_uO8C",
+      "members": [
+        "Hristov"
+      ]
+    },
+    {
+      "title": "Advancing Model Reliability Through a Generalised Uncertainty Methodology: A Response to the Second AIAA Uncertainty Quantification Challenge Problem for Aerodynamics",
+      "authors": "PO Hristov, V Nikolov",
+      "venue": "AIAA SCITECH 2026 Forum, 0294",
+      "year": 2026,
+      "citations": 1,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0IXY-jgAAAAJ&citation_for_view=0IXY-jgAAAAJ:Zph67rFs4hoC",
+      "members": [
+        "Hristov"
+      ]
+    },
+    {
+      "title": "On the Codesign of Scientific Experiments and Industrial Systems",
+      "authors": "T Dorigo, P Vischia, S Abbas, T Adewumi, L Alkhaled, L Arsini, et al.",
+      "venue": "arXiv preprint arXiv:2603.26613",
+      "year": 2026,
+      "citations": 1,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y6CnWHYAAAAJ&citation_for_view=Y6CnWHYAAAAJ:2osOgNQ5qMEC",
+      "members": [
+        "Dimitrov"
+      ]
+    },
+    {
+      "title": "Advancing Urban Air Quality Forecasting: A Deep Learning Approach for Real-Time Monitoring in Sofia",
+      "authors": "A Kostadinov, PO Hristov, D Petrova-Antonova",
+      "venue": "IFIP International Conference on Artificial Intelligence Applications and …",
+      "year": 2025,
+      "citations": 1,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0IXY-jgAAAAJ&citation_for_view=0IXY-jgAAAAJ:kNdYIx-mwKoC",
+      "members": [
+        "Hristov",
+        "Kostadinov"
+      ]
+    },
+    {
+      "title": "Comment on “On the Failure of the Area Metric for Validation Exercises of Stochastic Simulations”(Eça, L., Dowding, K., and Roache, PJ, 2022, ASME J. Verif., Validation …",
+      "authors": "WL Oberkampf, PO Hristov",
+      "venue": "Journal of Verification, Validation and Uncertainty Quantification 10 (1 …",
+      "year": 2025,
+      "citations": 1,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0IXY-jgAAAAJ&citation_for_view=0IXY-jgAAAAJ:3fE2CSJIrl8C",
+      "members": [
+        "Hristov"
+      ]
+    },
+    {
+      "title": "Dynamic model updating through reliability-based sequential history matching",
+      "authors": "J Cheng, FA DiazDelaO, PO Hristov",
+      "venue": "Mechanical Systems and Signal Processing 232, 112689",
+      "year": 2025,
+      "citations": 1,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0IXY-jgAAAAJ&citation_for_view=0IXY-jgAAAAJ:8k81kl-MbHgC",
+      "members": [
+        "Hristov"
+      ]
+    },
+    {
+      "title": "Data Collection and Wrangling Towards Machine Learning in LoD2+ Urban Models Generation",
+      "authors": "V Naserentin, G Spaias, A Kaimakamidis, S Somanath, M Pantusheva, et al.",
+      "venue": "IFIP International Conference on Artificial Intelligence Applications and …",
+      "year": 2024,
+      "citations": 1,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=iEXrg9oAAAAJ&citation_for_view=iEXrg9oAAAAJ:XvxMoLDsR5gC",
+      "members": [
+        "Pantusheva",
+        "Mitkov"
+      ]
+    },
+    {
+      "title": "Numerical methods for the assessment of absorbed power density from 6G wireless equipment",
+      "authors": "Z Dimitrov",
+      "venue": "",
+      "year": 2024,
+      "citations": 1,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y6CnWHYAAAAJ&citation_for_view=Y6CnWHYAAAAJ:u-x6o8ySG0sC",
+      "members": [
+        "Dimitrov"
+      ]
+    },
+    {
+      "title": "Dynamic Instability of Follower Forced Euler Bernoulli Cantilever Beam With Tip Mass",
+      "authors": "P Saha, T Singh",
+      "venue": "arXiv preprint arXiv:2311.10264",
+      "year": 2023,
+      "citations": 1,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JW0vPgIAAAAJ&citation_for_view=JW0vPgIAAAAJ:9yKSN-GCB0IC",
+      "members": [
+        "Saha"
+      ]
+    },
+    {
+      "title": "Uncertainty Quantification of Dynamic Systems Using Polynomial Chaos Expansion",
+      "authors": "P Saha",
+      "venue": "State University of New York at Buffalo",
+      "year": 2023,
+      "citations": 1,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JW0vPgIAAAAJ&citation_for_view=JW0vPgIAAAAJ:d1gkVwhDpl0C",
+      "members": [
+        "Saha"
+      ]
+    },
+    {
+      "title": "An efficient hybrid regression model for energy and water consumption in a municipal kindergarten",
+      "authors": "D Donchev, D Petrova-Antonova, PO Hristov",
+      "venue": "2022 7th International Conference on Smart and Sustainable Technologies …",
+      "year": 2022,
+      "citations": 1,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0IXY-jgAAAAJ&citation_for_view=0IXY-jgAAAAJ:eQOLeE2rZwMC",
+      "members": [
+        "Hristov"
+      ]
+    },
+    {
+      "title": "Uncertainty Quantification of Differential Algebraic Equations Using Polynomial Chaos",
+      "authors": "P Saha, T Singh, G Dargush",
+      "venue": "Journal of Computational and Nonlinear Dynamics 16 (10), 101005",
+      "year": 2021,
+      "citations": 1,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JW0vPgIAAAAJ&citation_for_view=JW0vPgIAAAAJ:2osOgNQ5qMEC",
+      "members": [
+        "Saha"
+      ]
+    },
+    {
+      "title": "Reliability analysis and surrogate modelling of biodiesel filters",
+      "authors": "PO Hristov, FA DiazDelaO, KJ Kubiak, U Farooq",
+      "venue": "Proceedings of the 26th European Safety and Reliability Conference (ESREL …",
+      "year": 2016,
+      "citations": 1,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0IXY-jgAAAAJ&citation_for_view=0IXY-jgAAAAJ:d1gkVwhDpl0C",
+      "members": [
+        "Hristov"
+      ]
+    },
+    {
+      "title": "Continuous learning digital twin for predictive building energy management",
+      "authors": "J Njoroge, MN Koeva, M Farnaghi, D Petrova-Antonova, M Pantusheva",
+      "venue": "5th 4TU-14UAS Research Day on Digitalization of the Built Environment",
+      "year": 2026,
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=iEXrg9oAAAAJ&citation_for_view=iEXrg9oAAAAJ:2VqYfGB8ITEC",
+      "members": [
+        "Pantusheva"
+      ]
+    },
+    {
+      "title": "Polynomial Chaos-based Input Shaper Design under Time-Varying Uncertainty",
+      "authors": "J GÃžttler, K Baker, P Saha, J Warner, A Stein",
+      "venue": "arXiv preprint arXiv:2601.17209",
+      "year": 2026,
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JW0vPgIAAAAJ&citation_for_view=JW0vPgIAAAAJ:W7OEmFMy1HYC",
+      "members": [
+        "Saha"
+      ]
+    },
+    {
+      "title": "RADAR: A Framework for Risk Assessment and Degradation Analysis for Cultural Heritage Buildings Through CFD Modeling",
+      "authors": "A Dimara, M Pantusheva, NA Stefanis, O Eleftheriou, R Mitkov, et al.",
+      "venue": "Heritage 9 (3), 112",
+      "year": 2026,
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=iEXrg9oAAAAJ&citation_for_view=iEXrg9oAAAAJ:_5tno0g5mFcC",
+      "members": [
+        "Pantusheva",
+        "Mitkov"
+      ]
+    },
+    {
+      "title": "Bayesian Uncertainty Modeling and Risk-Aware Optimization for Unknown Systems",
+      "authors": "P Saha, K Baker, A Stein",
+      "venue": "",
+      "year": 2025,
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JW0vPgIAAAAJ&citation_for_view=JW0vPgIAAAAJ:Y0pCki6q_DkC",
+      "members": [
+        "Saha"
+      ]
+    },
+    {
+      "title": "Diff-KNN: Residual Correction of Baseline Wind Predictions in Urban Settings",
+      "authors": "D Nowak, J Werner, F Hunger, T Johnson, A Mark, R Mitkov, et al.",
+      "venue": "Machine Learning and Knowledge Extraction 7 (4), 131",
+      "year": 2025,
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WXTBopgAAAAJ&citation_for_view=WXTBopgAAAAJ:W7OEmFMy1HYC",
+      "members": [
+        "Mitkov"
+      ]
+    },
+    {
+      "title": "Machine Learning Techniques for Post-Processing Electromagnetic Exposure Simulations",
+      "authors": "Z Dimitrov, T Yalamov",
+      "venue": "IEEE Antennas and Wireless Propagation Letters",
+      "year": 2025,
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y6CnWHYAAAAJ&citation_for_view=Y6CnWHYAAAAJ:d1gkVwhDpl0C",
+      "members": [
+        "Dimitrov"
+      ]
+    },
+    {
+      "title": "Towards a database for validation of urban ventilation and pollution dispersion models",
+      "authors": "P Hristov, R Mitkov, M Pantusheva, AR Jayakumari, S Gillmeier",
+      "venue": "9th European-African Conference on Wind Engineering",
+      "year": 2025,
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=iEXrg9oAAAAJ&citation_for_view=iEXrg9oAAAAJ:6ZxmRoH8BuwC",
+      "members": [
+        "Hristov",
+        "Pantusheva",
+        "Mitkov"
+      ]
+    },
+    {
+      "title": "ValUr: A High-Fidelity Dataset for Validation of Urban Pollution Dispersion Models–Project Overview and Geometry Preparation",
+      "authors": "M Pantusheva, R Mitkov, PO Hristov, E Shirinyan, V Naserentin, et al.",
+      "venue": "International Workshop in Engineering Research Infrastructures for European …",
+      "year": 2025,
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0IXY-jgAAAAJ&citation_for_view=0IXY-jgAAAAJ:ULOm3_A8WrAC",
+      "members": [
+        "Hristov",
+        "Pantusheva",
+        "Mitkov"
+      ]
+    },
+    {
+      "title": "CFD Simulation and 3D Visualization on Cultural Heritage sites: The Castle of Mytilene",
+      "authors": "O Eleftheriou, R Mitkov, V Naserentin, CN Anagnostopoulos",
+      "venue": "9th International Euro-Mediterranean Conference on Digital Heritage, Lemesos",
+      "year": 2022,
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WXTBopgAAAAJ&citation_for_view=WXTBopgAAAAJ:u5HHmVD_uO8C",
+      "members": [
+        "Mitkov"
+      ]
+    },
+    {
+      "title": "A Generalised Modelling of Piezoelectric Composite Shells and Plates using Variational Asymptotic Method",
+      "authors": "P Saha",
+      "venue": "",
+      "year": 2021,
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JW0vPgIAAAAJ&citation_for_view=JW0vPgIAAAAJ:qjMakFHDy7sC",
+      "members": [
+        "Saha"
+      ]
+    },
+    {
+      "title": "Contributed Discussion of\" A Bayesian Conjugate Gradient Method\"",
+      "authors": "FX Briol, FAD De la O, PO Hristov",
+      "venue": "arXiv preprint arXiv:1908.02964",
+      "year": 2019,
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0IXY-jgAAAAJ&citation_for_view=0IXY-jgAAAAJ:zYLM7Y9cAGgC",
+      "members": [
+        "Hristov"
+      ]
+    },
+    {
+      "title": "Forecast Engineering: From Past Design to Future Decision 2017",
+      "authors": "L Abrahamczyk",
+      "venue": "Deutsche Nationalbibliothek",
+      "year": 2019,
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=iEXrg9oAAAAJ&citation_for_view=iEXrg9oAAAAJ:NXb4pA-qfm4C",
+      "members": [
+        "Pantusheva"
+      ]
+    },
+    {
+      "title": "Изследване на стоманени вертикални резервоари чрез ANSYS Workbench и ANSYS Mechanical APDL",
+      "authors": "М Пантушева, Л Здравков",
+      "venue": "Годишник на УАСГ 52, 851-865",
+      "year": 2019,
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=iEXrg9oAAAAJ&citation_for_view=iEXrg9oAAAAJ:0izLItjtcgwC",
+      "members": [
+        "Pantusheva"
+      ]
+    },
+    {
+      "title": "ПОВРЕДИ ПО СТОМАНЕНИ РЕЗЕРВОАРИ, НАМИРАЩИ СЕ ОТ ДЪЛГО ВРЕМЕ В ЕКСПЛОАТАЦИЯ",
+      "authors": "Л Здравков, М Пантушева",
+      "venue": "Procedia Structural Integrity 22, 291-298",
+      "year": 2019,
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=iEXrg9oAAAAJ&citation_for_view=iEXrg9oAAAAJ:anf4URPfarAC",
+      "members": [
+        "Pantusheva"
+      ]
+    },
+    {
+      "title": "Wind Comfort Analysis Using an Immersed Boundary Method for Early-Stage Building Design",
+      "authors": "R Mitkov, F Hunger, M Pantusheva, V Naserentin, A Gösta, A Mark, et al.",
+      "venue": "Available at SSRN 4741573",
+      "year": 0,
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=iEXrg9oAAAAJ&citation_for_view=iEXrg9oAAAAJ:HtEfBTGE9r8C",
+      "members": [
+        "Pantusheva",
+        "Mitkov"
+      ]
+    }
+  ]
+}
