@@ -37,7 +37,7 @@
   </g>
 
   <!-- Sync connector (orange dashed) + gold node + data dots -->
-  <line x1="264" y1="184" x2="376" y2="184" stroke="#ED481C" stroke-width="2.4" stroke-dasharray="2 8" stroke-linecap="round"/>
+  <line x1="264" y1="184" x2="376" y2="184" stroke="#ED481C" stroke-width="2.4" stroke-dasharray="2 8" stroke-linecap="round"><animate attributeName="stroke-dashoffset" values="0;-10" dur="0.9s" repeatCount="indefinite"/></line>
   <circle cx="320" cy="184" r="10" fill="#FD9600"/>
   <path d="M316 179l8 5-8 5z" fill="#0F112A"/>
   <g fill="#ED481C" opacity="0.7">

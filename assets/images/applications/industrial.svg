@@ -10,6 +10,7 @@
 
   <!-- Gear — large (teal outline) centered left -->
   <g transform="translate(160,155)" stroke="#0E988C" stroke-width="2" fill="none">
+    <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="20s" repeatCount="indefinite" additive="sum"/>
     <!-- Gear teeth (12 teeth) -->
     <circle cx="0" cy="0" r="58"/>
     <circle cx="0" cy="0" r="44"/>
@@ -37,6 +38,7 @@
 
   <!-- Small gear (orange-red) -->
   <g transform="translate(275,105)" stroke="#ED481C" stroke-width="1.5" fill="none">
+    <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="13s" repeatCount="indefinite" additive="sum"/>
     <circle cx="0" cy="0" r="32"/>
     <circle cx="0" cy="0" r="24"/>
     <circle cx="0" cy="0" r="10" stroke="#FD9600" stroke-width="1.5"/>

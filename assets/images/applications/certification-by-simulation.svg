@@ -44,6 +44,7 @@
 
   <!-- Teal flow lines around wing (CFD streamlines) -->
   <g stroke="#0E988C" stroke-width="1.2" fill="none" stroke-linecap="round" opacity="0.6">
+    <animateTransform attributeName="transform" type="translate" values="0 0; -7 0; 0 0; 7 0; 0 0" dur="7s" repeatCount="indefinite"/>
     <path d="M60,100 C120,95 160,90 200,95 C260,102 290,130 370,125 C430,120 490,115 580,118"/>
     <path d="M60,125 C130,118 170,112 210,118 C270,127 295,145 375,142 C435,139 490,136 580,138"/>
     <path d="M60,165 C100,162 140,160 180,163 C230,168 270,175 340,175 C400,175 460,170 580,168"/>
