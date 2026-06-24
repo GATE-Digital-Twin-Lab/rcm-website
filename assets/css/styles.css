@@ -432,8 +432,8 @@ small, .small { font-size: var(--fs-small); }
     linear-gradient(160deg, #11143A 0%, #0F112A 60%, #1A1E4A 100%);
   box-shadow: var(--shadow-lg);
   overflow: hidden;
-  padding: var(--space-6);
-  aspect-ratio: 5 / 4;
+  padding: var(--space-3);
+  aspect-ratio: 5 / 3;
   display: grid;
   place-items: center;
 }
