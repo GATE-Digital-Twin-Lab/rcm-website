@@ -1,0 +1,86 @@
+{
+  "team": [
+    {
+      "name": "Peter Hristov",
+      "role": "Senior Researcher",
+      "pi": true,
+      "photo": "assets/images/team/peter-hristov.jpeg",
+      "bio": "PhD in uncertainty quantification (University of Liverpool); former postdoc at the Institute for Risk & Uncertainty, collaborating with Airbus UK.",
+      "university": { "name": "University of Liverpool", "logo": "assets/images/universities/liverpool.png" },
+      "links": {
+        "scholar": "https://scholar.google.com/citations?user=0IXY-jgAAAAJ&hl=en",
+        "linkedin": "https://www.linkedin.com/in/peterohristov/"
+      }
+    },
+    {
+      "name": "Zlatan Dimitrov",
+      "role": "Junior Researcher",
+      "photo": "assets/images/team/zlatan-dimitrov.png",
+      "bio": "Electromagnetics, differentiable programming, SciML, and surrogates; KTH Royal Institute of Technology.",
+      "university": { "name": "KTH Royal Institute of Technology", "logo": "assets/images/universities/kth.png" },
+      "links": {
+        "scholar": "https://scholar.google.com/citations?user=Y6CnWHYAAAAJ&hl=en",
+        "linkedin": "https://www.linkedin.com/in/zlatan-dimitrov/"
+      }
+    },
+    {
+      "name": "Mariya Pantusheva",
+      "role": "Experienced Researcher",
+      "photo": "assets/images/team/mariya-pantusheva.jpg",
+      "bio": "Structural FEA, CFD and fluid–structure interaction; MSc & PhD candidate at UACEG Sofia, with 7+ years in investment design.",
+      "university": { "name": "UACEG, Sofia", "logo": "assets/images/universities/uaceg.svg" },
+      "links": {
+        "scholar": "https://scholar.google.com/citations?user=iEXrg9oAAAAJ&hl=en",
+        "linkedin": "https://www.linkedin.com/in/mariya-pantusheva/"
+      }
+    },
+    {
+      "name": "Radostin Mitkov",
+      "role": "Junior Researcher",
+      "photo": "assets/images/team/radostin-mitkov.jpg",
+      "bio": "Urban wind CFD and air-quality modelling; MEng Aerospace Engineering, University of Southampton.",
+      "university": { "name": "University of Southampton", "logo": "assets/images/universities/southampton.png" },
+      "links": {
+        "scholar": "https://scholar.google.com/citations?user=WXTBopgAAAAJ&hl=en",
+        "linkedin": "https://www.linkedin.com/in/radostin-mitkov/"
+      }
+    },
+    {
+      "name": "Alexander Kostadinov",
+      "role": "Junior Researcher",
+      "photo": "assets/images/team/alexander-kostadinov.jpg",
+      "bio": "ML, UQ and urban air-quality forecasting; BSc Computer Science and MSc Big Data, Sofia University.",
+      "university": { "name": "Sofia University", "logo": "assets/images/universities/sofia-university.png" },
+      "links": {
+        "scholar": "https://scholar.google.com/citations?user=qN0etJcAAAAJ&hl=en"
+      }
+    },
+    {
+      "name": "Premjit Saha",
+      "role": "Experienced Researcher",
+      "photo": "assets/images/team/premjit-saha.jpeg",
+      "bio": "Uncertainty quantification and robust control; PhD in polynomial-chaos UQ, University at Buffalo (SUNY).",
+      "university": { "name": "University at Buffalo, SUNY", "logo": "assets/images/universities/buffalo.png" },
+      "links": {
+        "scholar": "https://scholar.google.com/citations?user=JW0vPgIAAAAJ&hl=en",
+        "linkedin": "https://www.linkedin.com/in/premjitsaha/"
+      }
+    },
+    {
+      "name": "Valentin Nikolov",
+      "role": "Junior Researcher",
+      "photo": "assets/images/team/valentin-nikolov.svg",
+      "bio": "Member of the Reliable Computational Modelling group."
+    },
+    {
+      "name": "Alexander Yordanov",
+      "role": "Junior Researcher",
+      "photo": "assets/images/team/alexander-yordanov.jpeg",
+      "bio": "Validation metrics for urban-CFD simulations; computational statistics, stochastic modeling and financial mathematics.",
+      "university": { "name": "University of Maryland" },
+      "links": {
+        "linkedin": "https://www.linkedin.com/in/alexander05yordanov/"
+      }
+    }
+  ]
+}

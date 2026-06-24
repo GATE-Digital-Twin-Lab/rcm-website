@@ -15,13 +15,25 @@
   var prefersReducedMotion =
     window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
+  // Shared scroll-reveal observer, set up by initScrollReveal() and reused by
+  // content that is rendered after load (e.g. the team grid) via revealObserve().
+  var revealObserver = null;
+
   document.addEventListener("DOMContentLoaded", function () {
     initStickyHeader();
     initMobileNav();
     initScrollReveal();
     initActiveNav();
+    initTeam();
     initPublications();
   });
+
+  // Reveal a dynamically inserted element: observe it if the observer exists,
+  // otherwise (reduced motion / no IO support) just show it immediately.
+  function revealObserve(el) {
+    if (revealObserver) revealObserver.observe(el);
+    else el.classList.add("is-visible");
+  }
 
   /* ---------------------------------------------------------------------------
      Sticky header shadow
@@ -99,18 +111,16 @@
      Scroll reveal
      --------------------------------------------------------------------------- */
   function initScrollReveal() {
-    var items = document.querySelectorAll(".reveal");
-    if (!items.length) return;
-
-    // Reduced motion or no IO support: show everything immediately.
+    // Reduced motion or no IO support: show everything immediately and leave
+    // revealObserver null so later content (revealObserve) also shows at once.
     if (prefersReducedMotion || !("IntersectionObserver" in window)) {
-      items.forEach(function (el) {
+      document.querySelectorAll(".reveal").forEach(function (el) {
         el.classList.add("is-visible");
       });
       return;
     }
 
-    var observer = new IntersectionObserver(
+    revealObserver = new IntersectionObserver(
       function (entries, obs) {
         entries.forEach(function (entry) {
           if (entry.isIntersecting) {
@@ -122,8 +132,8 @@
       { rootMargin: "0px 0px -10% 0px", threshold: 0.08 }
     );
 
-    items.forEach(function (el) {
-      observer.observe(el);
+    document.querySelectorAll(".reveal").forEach(function (el) {
+      revealObserver.observe(el);
     });
   }
 
@@ -174,6 +184,94 @@
     sections.forEach(function (section) {
       observer.observe(section);
     });
+  }
+
+  /* ---------------------------------------------------------------------------
+     Team — cards rendered from JSON (no personal data hardcoded in HTML)
+     --------------------------------------------------------------------------- */
+  function initTeam() {
+    var grid = document.getElementById("team-grid");
+    if (!grid) return;
+
+    function esc(s) {
+      return String(s == null ? "" : s)
+        .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;").replace(/'/g, "&#39;");
+    }
+
+    // Reused inline SVGs (mirror the markup the static cards used).
+    var CAP_PATHS =
+      '<path fill="currentColor" d="M12 3 1 9l11 6 9-4.91V17h2V9L12 3Z"/>' +
+      '<path fill="currentColor" d="M6 13.18v3.32L12 20l6-3.5v-3.32l-6 3.27-6-3.27Z"/>';
+    var LINKEDIN_PATH =
+      '<path fill="currentColor" d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9h4v12H3V9Zm6 0h3.83v1.64h.05c.53-1 1.84-2.05 3.79-2.05 4.05 0 4.8 2.67 4.8 6.14V21h-4v-5.45c0-1.3-.02-2.97-1.81-2.97-1.81 0-2.09 1.41-2.09 2.87V21H9V9Z"/>';
+
+    function scholarIcon() {
+      return '<svg class="team-link__icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false">' + CAP_PATHS + "</svg>";
+    }
+    function linkedinIcon() {
+      return '<svg class="team-link__icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false">' + LINKEDIN_PATH + "</svg>";
+    }
+
+    function uniChip(uni) {
+      if (!uni || !uni.name) return "";
+      var badge = uni.logo
+        ? '<img class="uni-chip__logo" src="' + esc(uni.logo) + '" alt="" width="20" height="20" loading="lazy">'
+        : '<svg class="uni-chip__cap" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false">' + CAP_PATHS + "</svg>";
+      return '<p class="uni-chip">' + badge + '<span class="uni-chip__name">' + esc(uni.name) + "</span></p>";
+    }
+
+    function links(member) {
+      var l = member.links || {};
+      var items = "";
+      if (l.scholar) {
+        items += '<li><a class="team-link" href="' + esc(l.scholar) + '" target="_blank" rel="noopener" aria-label="' +
+          esc(member.name) + ' on Google Scholar">' + scholarIcon() + "</a></li>";
+      }
+      if (l.linkedin) {
+        items += '<li><a class="team-link" href="' + esc(l.linkedin) + '" target="_blank" rel="noopener" aria-label="' +
+          esc(member.name) + ' on LinkedIn">' + linkedinIcon() + "</a></li>";
+      }
+      return items ? '<ul class="team-links">' + items + "</ul>" : "";
+    }
+
+    function cardHtml(member) {
+      var cls = "card card--team reveal" + (member.pi ? " card--team-pi" : "");
+      return (
+        '<li class="' + cls + '">' +
+          '<div class="card--team__photo">' +
+            '<img src="' + esc(member.photo) + '" alt="' + esc(member.name) +
+            '" width="160" height="160" loading="lazy">' +
+          "</div>" +
+          '<h3 class="card--team__name">' + esc(member.name) + "</h3>" +
+          '<p class="card--team__role">' + esc(member.role) + "</p>" +
+          '<div class="card--team__meta">' +
+            '<p class="card--team__bio">' + esc(member.bio) + "</p>" +
+            uniChip(member.university) +
+            links(member) +
+          "</div>" +
+        "</li>"
+      );
+    }
+
+    function fail() {
+      grid.innerHTML = '<li class="card card--team reveal is-visible">Team profiles couldn’t be loaded — please refresh.</li>';
+      grid.setAttribute("aria-busy", "false");
+    }
+
+    if (!window.fetch) { fail(); return; }
+
+    fetch("assets/data/team.json", { cache: "no-cache" })
+      .then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
+      .then(function (data) {
+        var members = (data && data.team) || [];
+        if (!members.length) { fail(); return; }
+        grid.innerHTML = members.map(cardHtml).join("");
+        grid.setAttribute("aria-busy", "false");
+        // Hook the freshly inserted cards into the scroll-reveal animation.
+        grid.querySelectorAll(".reveal").forEach(revealObserve);
+      })
+      .catch(fail);
   }
 
   /* ---------------------------------------------------------------------------
