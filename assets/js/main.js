@@ -198,7 +198,7 @@
     };
 
     function render(mode) {
-      var sorted = pubs.slice().sort(sorters[mode] || sorters.cited).slice(0, 10);
+      var sorted = pubs.slice().sort(sorters[mode] || sorters.cited).slice(0, 7);
       list.innerHTML = sorted.map(function (p) {
         var year = p.year > 0 ? p.year : "";
         var venue = p.venue ? esc(p.venue) + (year ? ", " + year : "") : (year ? String(year) : "");
