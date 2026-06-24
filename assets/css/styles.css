@@ -416,11 +416,11 @@ small, .small { font-size: var(--fs-small); }
   .hero__media { width: 70%; justify-self: center; }
 }
 
-.hero h1 { max-width: 16ch; }
+.hero h1 { max-width: none; }
 .hero__lead {
   font-size: var(--fs-lead);
   color: var(--color-muted);
-  max-width: 56ch;
+  max-width: none;
   margin-block: var(--space-4) var(--space-6);
 }
 .hero__actions { display: flex; gap: var(--space-4); flex-wrap: wrap; }
