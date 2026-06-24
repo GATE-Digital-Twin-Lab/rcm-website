@@ -411,7 +411,8 @@ small, .small { font-size: var(--fs-small); }
 .hero { padding-block: var(--space-8) var(--space-9); overflow: hidden; }
 .hero__inner { display: grid; gap: var(--space-7); align-items: center; }
 @media (min-width: 1024px) {
-  .hero__inner { grid-template-columns: 1.05fr 0.95fr; gap: var(--space-8); }
+  /* Stacked hero: text on top, full-width graphical abstract below */
+  .hero__inner { grid-template-columns: 1fr; gap: var(--space-7); }
 }
 
 .hero h1 { max-width: 16ch; }
