@@ -3,24 +3,12 @@
     {
       "name": "Peter Hristov",
       "role": "Senior Researcher",
-      "pi": true,
       "photo": "assets/images/team/peter-hristov.jpeg",
       "bio": "PhD in uncertainty quantification (University of Liverpool); former postdoc at the Institute for Risk & Uncertainty, collaborating with Airbus UK.",
       "university": { "name": "University of Liverpool", "logo": "assets/images/universities/liverpool.png" },
       "links": {
         "scholar": "https://scholar.google.com/citations?user=0IXY-jgAAAAJ&hl=en",
         "linkedin": "https://www.linkedin.com/in/peterohristov/"
-      }
-    },
-    {
-      "name": "Zlatan Dimitrov",
-      "role": "Junior Researcher",
-      "photo": "assets/images/team/zlatan-dimitrov.png",
-      "bio": "Electromagnetics, differentiable programming, SciML, and surrogates; KTH Royal Institute of Technology.",
-      "university": { "name": "KTH Royal Institute of Technology", "logo": "assets/images/universities/kth.png" },
-      "links": {
-        "scholar": "https://scholar.google.com/citations?user=Y6CnWHYAAAAJ&hl=en",
-        "linkedin": "https://www.linkedin.com/in/zlatan-dimitrov/"
       }
     },
     {
@@ -32,6 +20,28 @@
       "links": {
         "scholar": "https://scholar.google.com/citations?user=iEXrg9oAAAAJ&hl=en",
         "linkedin": "https://www.linkedin.com/in/mariya-pantusheva/"
+      }
+    },
+    {
+      "name": "Premjit Saha",
+      "role": "Experienced Researcher",
+      "photo": "assets/images/team/premjit-saha.jpeg",
+      "bio": "Uncertainty quantification and robust control; PhD in polynomial-chaos UQ, University at Buffalo (SUNY).",
+      "university": { "name": "University at Buffalo, SUNY", "logo": "assets/images/universities/buffalo.png" },
+      "links": {
+        "scholar": "https://scholar.google.com/citations?user=JW0vPgIAAAAJ&hl=en",
+        "linkedin": "https://www.linkedin.com/in/premjitsaha/"
+      }
+    },
+    {
+      "name": "Zlatan Dimitrov",
+      "role": "Junior Researcher",
+      "photo": "assets/images/team/zlatan-dimitrov.png",
+      "bio": "Electromagnetics, differentiable programming, SciML, and surrogates; KTH Royal Institute of Technology.",
+      "university": { "name": "KTH Royal Institute of Technology", "logo": "assets/images/universities/kth.png" },
+      "links": {
+        "scholar": "https://scholar.google.com/citations?user=Y6CnWHYAAAAJ&hl=en",
+        "linkedin": "https://www.linkedin.com/in/zlatan-dimitrov/"
       }
     },
     {
@@ -53,17 +63,6 @@
       "university": { "name": "Sofia University", "logo": "assets/images/universities/sofia-university.png" },
       "links": {
         "scholar": "https://scholar.google.com/citations?user=qN0etJcAAAAJ&hl=en"
-      }
-    },
-    {
-      "name": "Premjit Saha",
-      "role": "Experienced Researcher",
-      "photo": "assets/images/team/premjit-saha.jpeg",
-      "bio": "Uncertainty quantification and robust control; PhD in polynomial-chaos UQ, University at Buffalo (SUNY).",
-      "university": { "name": "University at Buffalo, SUNY", "logo": "assets/images/universities/buffalo.png" },
-      "links": {
-        "scholar": "https://scholar.google.com/citations?user=JW0vPgIAAAAJ&hl=en",
-        "linkedin": "https://www.linkedin.com/in/premjitsaha/"
       }
     },
     {
