@@ -68,8 +68,9 @@
     {
       "name": "Valentin Nikolov",
       "role": "Junior Researcher",
-      "photo": "assets/images/team/valentin-nikolov.svg",
-      "bio": "Member of the Reliable Computational Modelling group.",
+      "photo": "assets/images/team/valentin-nikolov.jpeg",
+      "bio": "Stochastic processes and statistical learning; data-science and machine-learning models in Python and R. MSc Mathematics and Statistics, University of Warwick.",
+      "university": { "name": "University of Warwick" },
       "links": {
         "linkedin": "https://www.linkedin.com/in/valentin-nikolov10/"
       }
