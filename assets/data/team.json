@@ -69,8 +69,7 @@
       "name": "Valentin Nikolov",
       "role": "Junior Researcher",
       "photo": "assets/images/team/valentin-nikolov.jpeg",
-      "bio": "Stochastic processes and statistical learning; data-science and machine-learning models in Python and R. MSc Mathematics and Statistics, University of Warwick.",
-      "university": { "name": "University of Warwick" },
+      "bio": "Stochastic processes and statistical learning; data-science and machine-learning models in Python and R.",
       "links": {
         "linkedin": "https://www.linkedin.com/in/valentin-nikolov10/"
       }
