@@ -70,6 +70,7 @@
       "role": "Junior Researcher",
       "photo": "assets/images/team/valentin-nikolov.jpeg",
       "bio": "Stochastic processes and statistical learning; data-science and machine-learning models in Python and R.",
+      "university": { "name": "University of Warwick" },
       "links": {
         "linkedin": "https://www.linkedin.com/in/valentin-nikolov10/"
       }
