@@ -69,7 +69,10 @@
       "name": "Valentin Nikolov",
       "role": "Junior Researcher",
       "photo": "assets/images/team/valentin-nikolov.svg",
-      "bio": "Member of the Reliable Computational Modelling group."
+      "bio": "Member of the Reliable Computational Modelling group.",
+      "links": {
+        "linkedin": "https://www.linkedin.com/in/valentin-nikolov10/"
+      }
     },
     {
       "name": "Alexander Yordanov",
