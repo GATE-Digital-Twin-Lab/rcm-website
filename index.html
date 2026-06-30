@@ -51,7 +51,6 @@
 
       <nav class="nav" id="primaryNav" aria-label="Primary">
         <ul class="nav__list">
-          <li><a href="#research">Research</a></li>
           <li><a href="#applications">Applications</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#publications">Publications</a></li>
@@ -86,7 +85,7 @@
             improve the reliability of data-based, physics-based and mixed models.
           </p>
           <div class="hero__actions">
-            <a class="btn btn--primary btn--lg" href="#research">Explore our research</a>
+            <a class="btn btn--primary btn--lg" href="#applications">Explore our research</a>
             <a class="btn btn--ghost btn--lg" href="#contact">Partner with us</a>
           </div>
         </div>
@@ -100,84 +99,37 @@
       </div>
     </section>
 
-    <!-- ============================ RESEARCH ============================ -->
-    <section id="research" class="section section--alt" aria-labelledby="research-heading">
-      <div class="container">
-        <div class="section-header reveal">
-          <p class="eyebrow">Research topics</p>
-          <h2 id="research-heading">Research areas</h2>
-          <p>Four interlocking research lines, united by a single objective: models whose pronouncements can be trusted.</p>
-        </div>
-
-        <div class="grid grid--2">
-          <article class="card reveal">
-            <div class="card__icon" aria-hidden="true">
-              <img src="assets/images/research/multiphysics.svg" alt="" width="56" height="56" loading="lazy">
-            </div>
-            <h3 class="card__title">Reliable multiphysical modelling</h3>
-            <p class="card__text">
-              Covers the full modelling and simulation cycle — geometry preparation, mesh development,
-              boundary and initial conditions, multiphysics coupling, visualization and postprocessing.
-              Applications span the built environment and indoor studies, ground and aerial vehicle
-              simulation, and industrial production. Current use cases include CFD for cultural-heritage
-              preservation, air-pollution dispersion, and certification of passenger aircraft.
-            </p>
-          </article>
-
-          <article class="card reveal">
-            <div class="card__icon" aria-hidden="true">
-              <img src="assets/images/research/uncertainty-quantification.svg" alt="" width="56" height="56" loading="lazy">
-            </div>
-            <h3 class="card__title">Uncertainty quantification</h3>
-            <p class="card__text">
-              UQ sits at the border of fundamental and applied research: uncertainty characterization
-              and propagation through complex numerical models, automatic computation verification, and
-              generalized uncertainty calculi. It is applied to design under uncertainty, risk assessment
-              of complex systems, and model validation. Use cases: aircraft certification, aerodynamic
-              design in industry, air-pollution model validation, and machine-learning reliability.
-            </p>
-          </article>
-
-          <article class="card reveal">
-            <div class="card__icon" aria-hidden="true">
-              <img src="assets/images/research/scientific-ml.svg" alt="" width="56" height="56" loading="lazy">
-            </div>
-            <h3 class="card__title">Scientific machine learning</h3>
-            <p class="card__text">
-              Reliability of physics-informed and deep-learning models, applied to surrogate modelling,
-              simulation acceleration, and digital-twin fusion. Current use cases cover aerospace
-              structural modelling and urban analysis.
-            </p>
-          </article>
-
-          <article class="card reveal">
-            <div class="card__icon" aria-hidden="true">
-              <img src="assets/images/research/reliable-language-models.svg" alt="" width="56" height="56" loading="lazy">
-            </div>
-            <h3 class="card__title">Reliable language modelling</h3>
-            <p class="card__text">
-              Equipping large language models with statistically rigorous guarantees of validity
-              represents a critical step toward the reliable integration of LLMs into high-stakes
-              applications. As these complex systems become integral components of an increasing
-              number of workflows and pipelines, errors introduced at any stage can propagate and
-              compromise the integrity of downstream processes. Rendering language models auditable
-              through uncertainty quantification methods, such as conformal prediction, brings the
-              field closer to principled, trustworthy collaboration between humans and LLMs.
-            </p>
-          </article>
-        </div>
-      </div>
-    </section>
-
     <!-- ============================ APPLICATIONS ============================ -->
-    <section id="applications" class="section" aria-labelledby="applications-heading">
+    <section id="applications" class="section section--alt" aria-labelledby="applications-heading">
       <div class="container">
         <div class="section-header reveal">
           <p class="eyebrow">Reliable modelling in practice</p>
           <h2 id="applications-heading">Reliable modelling, applied</h2>
+          <p>From method to real-world use — our research lines in multiphysical modelling, uncertainty quantification, scientific machine learning and reliable language modelling, taken across industry and the built environment.</p>
         </div>
 
         <div class="grid grid--2">
+          <article class="card card--app reveal">
+            <img src="assets/images/applications/industrial.svg"
+                 alt="Structural and seismic simulation of an industrial facility under load"
+                 width="640" height="360" loading="lazy">
+            <div class="card__body">
+              <h3 class="card__title">Reliable industrial modelling</h3>
+              <p class="card__text">
+                Structural and seismic design of industrial facilities, and structural analysis for the
+                automotive industry — engineering decisions backed by quantified confidence in the
+                underlying simulations.
+              </p>
+              <p class="card__text">
+                Covers the full modelling and simulation cycle — geometry preparation, mesh development,
+                boundary and initial conditions, multiphysics coupling, visualization and postprocessing.
+                Applications span the built environment and indoor studies, ground and aerial vehicle
+                simulation, and industrial production. Current use cases include CFD for cultural-heritage
+                preservation, air-pollution dispersion, and certification of passenger aircraft.
+              </p>
+            </div>
+          </article>
+
           <article class="card card--app reveal">
             <img src="assets/images/applications/urban-environmental.svg"
                  alt="CFD visualization of wind and pollutant flow through an urban environment"
@@ -194,36 +146,56 @@
           </article>
 
           <article class="card card--app reveal">
-            <img src="assets/images/applications/industrial.svg"
-                 alt="Structural simulation of an industrial facility under load"
+            <img src="assets/images/applications/uncertainty-quantification.svg"
+                 alt="A model prediction carrying a quantified uncertainty band"
                  width="640" height="360" loading="lazy">
             <div class="card__body">
-              <h3 class="card__title">Reliable industrial modelling</h3>
+              <h3 class="card__title">Uncertainty quantification</h3>
               <p class="card__text">
-                Structural and seismic design of industrial facilities, and structural analysis for the
-                automotive industry — engineering decisions backed by quantified confidence in the
-                underlying simulations.
+                UQ sits at the border of fundamental and applied research: uncertainty characterization
+                and propagation through complex numerical models, automatic computation verification, and
+                generalized uncertainty calculi. It is applied to design under uncertainty, risk assessment
+                of complex systems, and model validation. Use cases: aircraft certification, aerodynamic
+                design in industry, air-pollution model validation, and machine-learning reliability.
               </p>
             </div>
           </article>
 
           <article class="card card--app reveal">
-            <img src="assets/images/applications/certification-by-simulation.svg"
-                 alt="Aircraft model used in certification-by-simulation studies"
+            <img src="assets/images/applications/scientific-ml.svg"
+                 alt="Physics and data fused into a fast surrogate model"
                  width="640" height="360" loading="lazy">
             <div class="card__body">
-              <h3 class="card__title">Certification by simulation</h3>
+              <h3 class="card__title">Scientific machine learning</h3>
               <p class="card__text">
-                Through the unCertify project we are building a UQ framework for simulation-enabled
-                aircraft certification — reducing reliance on costly flight testing while preserving an
-                equivalent level of safety. It is validated on the AIAA CbS challenge.
+                Reliability of physics-informed and deep-learning models, applied to surrogate modelling,
+                simulation acceleration, and digital-twin fusion. Current use cases cover aerospace
+                structural modelling and urban analysis.
+              </p>
+            </div>
+          </article>
+
+          <article class="card card--app reveal">
+            <img src="assets/images/applications/reliable-language.svg"
+                 alt="An auditable language model whose answers carry conformal-prediction guarantees"
+                 width="640" height="360" loading="lazy">
+            <div class="card__body">
+              <h3 class="card__title">Reliable language modelling</h3>
+              <p class="card__text">
+                Equipping large language models with statistically rigorous guarantees of validity
+                represents a critical step toward the reliable integration of LLMs into high-stakes
+                applications. As these complex systems become integral components of an increasing
+                number of workflows and pipelines, errors introduced at any stage can propagate and
+                compromise the integrity of downstream processes. Rendering language models auditable
+                through uncertainty quantification methods, such as conformal prediction, brings the
+                field closer to principled, trustworthy collaboration between humans and LLMs.
               </p>
             </div>
           </article>
 
           <article class="card card--app reveal">
             <img src="assets/images/applications/digital-twin-lab.svg"
-                 alt="A physical asset paired with its synchronised digital twin"
+                 alt="A real aircraft paired with its synchronised digital twin"
                  width="640" height="360" loading="lazy">
             <div class="card__body">
               <h3 class="card__title">Digital Twin Laboratory</h3>
@@ -231,6 +203,11 @@
                 Academic–industrial co-innovation at the heart of the group — where research-grade methods
                 meet real engineering problems. We partner across technology-readiness levels, from joint
                 research-excellence programs to knowledge-transfer partnerships and research-based services.
+              </p>
+              <p class="card__text">
+                Through the unCertify project we are building a UQ framework for simulation-enabled
+                aircraft certification — reducing reliance on costly flight testing while preserving an
+                equivalent level of safety. It is validated on the AIAA CbS challenge.
               </p>
             </div>
           </article>
@@ -249,7 +226,7 @@
     </section>
 
     <!-- ============================ PROJECTS ============================ -->
-    <section id="projects" class="section section--alt" aria-labelledby="projects-heading">
+    <section id="projects" class="section" aria-labelledby="projects-heading">
       <div class="container">
         <div class="section-header reveal">
           <p class="eyebrow">Selected projects</p>
@@ -302,7 +279,7 @@
     </section>
 
     <!-- ============================ OUTPUTS & PUBLICATIONS ============================ -->
-    <section id="publications" class="section" aria-labelledby="publications-heading">
+    <section id="publications" class="section section--alt" aria-labelledby="publications-heading">
       <div class="container">
         <div class="section-header reveal">
           <p class="eyebrow">Outputs</p>
@@ -331,7 +308,7 @@
     </section>
 
     <!-- ============================ TEAM ============================ -->
-    <section id="team" class="section section--alt" aria-labelledby="team-heading">
+    <section id="team" class="section" aria-labelledby="team-heading">
       <div class="container">
         <div class="section-header reveal">
           <p class="eyebrow">People</p>
