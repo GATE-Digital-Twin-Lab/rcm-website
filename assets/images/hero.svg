@@ -15,17 +15,17 @@
   <rect width="1000" height="600" fill="url(#pl-dots)"/>
 
   <!-- Eyebrow + wordmark -->
-  <text x="40" y="40" font-family="ui-monospace, monospace" font-size="12" font-weight="700" fill="#2B3062" letter-spacing="2">// RELIABLE COMPUTATIONAL MODELLING</text>
-  <text x="960" y="40" font-family="ui-monospace, monospace" font-size="12" font-weight="700" fill="#0E988C" letter-spacing="2" text-anchor="end">GATE · RCM</text>
+  <text x="40" y="40" font-family="ui-monospace, monospace" font-size="15.6" font-weight="700" fill="#2B3062" letter-spacing="2">// RELIABLE COMPUTATIONAL MODELLING</text>
+  <text x="960" y="40" font-family="ui-monospace, monospace" font-size="15.6" font-weight="700" fill="#0E988C" letter-spacing="2" text-anchor="end">GATE · RCM</text>
 
   <!-- Figure body — shifted down to vertically center the composition -->
   <g transform="translate(0,40)">
   <!-- Mission poles -->
-  <text x="44" y="86" font-family="ui-monospace, monospace" font-size="13" font-weight="700" fill="#ED481C" letter-spacing="2">[ ASSESS</text>
-  <text x="956" y="86" font-family="ui-monospace, monospace" font-size="13" font-weight="700" fill="#0E988C" letter-spacing="2" text-anchor="end">IMPROVE ]</text>
+  <text x="44" y="86" font-family="ui-monospace, monospace" font-size="16.9" font-weight="700" fill="#ED481C" letter-spacing="2">[ ASSESS</text>
+  <text x="956" y="86" font-family="ui-monospace, monospace" font-size="16.9" font-weight="700" fill="#0E988C" letter-spacing="2" text-anchor="end">IMPROVE ]</text>
 
   <!-- Domain inlets (the application domains feeding raw geometry) -->
-  <text x="90" y="138" font-family="ui-monospace, monospace" font-size="10" font-weight="700" fill="#0F112A" letter-spacing="1.5">INPUTS · DOMAINS</text>
+  <text x="90" y="138" font-family="ui-monospace, monospace" font-size="13.0" font-weight="700" fill="#0F112A" letter-spacing="1.5">INPUTS · DOMAINS</text>
   <g stroke="#0F112A" stroke-width="1.4" fill="none" opacity="0.8">
     <!-- aircraft -->
     <g transform="translate(108,176)"><ellipse cx="0" cy="0" rx="14" ry="3.2" fill="#0F112A"/><path d="M-2,-2 L-9,-12 L-13,-11 L-7,-1 Z" fill="#0F112A" stroke="none"/><path d="M-2,2 L-9,12 L-13,11 L-7,1 Z" fill="#0F112A" stroke="none"/></g>
@@ -50,20 +50,20 @@
       <rect x="700" y="150" width="125" height="235" rx="6"/>
     </g>
     <!-- headers -->
-    <text x="257" y="172" font-size="11" font-weight="700" fill="#0F112A" letter-spacing="1" text-anchor="middle">MULTIPHYSICS</text>
-    <text x="257" y="186" font-size="8.5" fill="#0E988C" letter-spacing="1" text-anchor="middle">EMIT</text>
-    <text x="422" y="172" font-size="11" font-weight="700" fill="#0F112A" letter-spacing="1" text-anchor="middle">SciML</text>
-    <text x="422" y="186" font-size="8.5" fill="#0E988C" letter-spacing="1" text-anchor="middle">ACCELERATE</text>
-    <text x="592" y="172" font-size="12" font-weight="700" fill="#0E988C" letter-spacing="1" text-anchor="middle">UQ · CORE</text>
-    <text x="592" y="186" font-size="8.5" fill="#0E988C" letter-spacing="1" text-anchor="middle">QUANTIFY UNCERTAINTY</text>
-    <text x="762" y="172" font-size="11" font-weight="700" fill="#0F112A" letter-spacing="1" text-anchor="middle">LANGUAGE</text>
-    <text x="762" y="186" font-size="8.5" fill="#0E988C" letter-spacing="1" text-anchor="middle">GUARANTEE · STAMP</text>
+    <text x="257" y="172" font-size="14.3" font-weight="700" fill="#0F112A" letter-spacing="1" text-anchor="middle">MULTIPHYSICS</text>
+    <text x="257" y="186" font-size="11.1" fill="#0E988C" letter-spacing="1" text-anchor="middle">EMIT</text>
+    <text x="422" y="172" font-size="14.3" font-weight="700" fill="#0F112A" letter-spacing="1" text-anchor="middle">SciML</text>
+    <text x="422" y="186" font-size="11.1" fill="#0E988C" letter-spacing="1" text-anchor="middle">ACCELERATE</text>
+    <text x="592" y="172" font-size="15.6" font-weight="700" fill="#0E988C" letter-spacing="1" text-anchor="middle">UQ · CORE</text>
+    <text x="592" y="186" font-size="11.1" fill="#0E988C" letter-spacing="1" text-anchor="middle">QUANTIFY UNCERTAINTY</text>
+    <text x="762" y="172" font-size="14.3" font-weight="700" fill="#0F112A" letter-spacing="1" text-anchor="middle">LANGUAGE</text>
+    <text x="762" y="186" font-size="11.1" fill="#0E988C" letter-spacing="1" text-anchor="middle">GUARANTEE · STAMP</text>
     <!-- team tags -->
-    <g font-size="14" font-weight="700" fill="#2B3062" opacity="0.95" text-anchor="middle">
-      <text x="257" y="378">PS · VN · AK</text>
-      <text x="422" y="378">ZD · RM · AY</text>
-      <text x="592" y="378">PH · AY</text>
-      <text x="762" y="378">PH</text>
+    <g font-size="18.2" font-weight="700" fill="#2B3062" opacity="0.95" text-anchor="middle">
+      <text x="257" y="378">MP·RM</text>
+      <text x="422" y="378">ZD</text>
+      <text x="592" y="378">PS·AY·PH·VN</text>
+      <text x="762" y="378">AK</text>
     </g>
   </g>
 
@@ -73,7 +73,7 @@
     <rect x="212" y="250" width="20" height="20" fill="#0F112A"/>
     <g stroke="#1CCFC0" stroke-width="0.8" opacity="0.7"><line x1="218" y1="250" x2="218" y2="270"/><line x1="225" y1="250" x2="225" y2="270"/><line x1="212" y1="257" x2="232" y2="257"/><line x1="212" y1="263" x2="232" y2="263"/></g>
     <path d="M240,255 L300,250 L290,243 M300,250 L290,257" fill="none" stroke="#0E988C" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
-    <text x="257" y="300" font-family="ui-monospace, monospace" font-size="8" fill="#2B3062" text-anchor="middle" opacity="0.8">geometry→mesh</text>
+    <text x="257" y="300" font-family="ui-monospace, monospace" font-size="10.4" fill="#2B3062" text-anchor="middle" opacity="0.8">geometry→mesh</text>
   </g>
   <!-- thin ribbon G1->G2 -->
   <line x1="320" y1="248" x2="360" y2="246" stroke="#0E988C" stroke-width="2.4"/>
@@ -83,7 +83,7 @@
     <g fill="#ED481C" opacity="0.85"><circle cx="372" cy="252" r="2.2"/><circle cx="384" cy="238" r="2.2"/><circle cx="396" cy="250" r="2.2"/><circle cx="408" cy="241" r="2.2"/><circle cx="420" cy="246" r="2.2"/></g>
     <path d="M368,250 C384,238 400,250 422,243" fill="none" stroke="#0E988C" stroke-width="2.6"/>
     <g stroke="#2B3062" stroke-width="1" opacity="0.6"><circle cx="438" cy="244" r="3"/><circle cx="452" cy="240" r="3"/><circle cx="466" cy="246" r="3"/><line x1="438" y1="244" x2="452" y2="240"/><line x1="452" y1="240" x2="466" y2="246"/></g>
-    <text x="422" y="300" font-family="ui-monospace, monospace" font-size="8" fill="#2B3062" text-anchor="middle" opacity="0.8">sparse→dense · Δt↓</text>
+    <text x="422" y="300" font-family="ui-monospace, monospace" font-size="10.4" fill="#2B3062" text-anchor="middle" opacity="0.8">sparse→dense · Δt↓</text>
   </g>
   <!-- dense ribbon G2->G3 -->
   <line x1="485" y1="240" x2="525" y2="236" stroke="#0E988C" stroke-width="2.8"/>
@@ -98,7 +98,7 @@
     <path d="M525,259 C560,255 590,253 660,249" fill="none" stroke="#0E988C" stroke-width="2.4"/>
     <g stroke="#0E988C" stroke-width="1" opacity="0.6"><line x1="560" y1="238" x2="560" y2="272"/><line x1="600" y1="234" x2="600" y2="268"/><line x1="635" y1="232" x2="635" y2="264"/></g>
   </g>
-  <text x="592" y="300" font-family="ui-monospace, monospace" font-size="8" fill="#2B3062" text-anchor="middle" opacity="0.8">line → ±σ band</text>
+  <text x="592" y="300" font-family="ui-monospace, monospace" font-size="10.4" fill="#2B3062" text-anchor="middle" opacity="0.8">line → ±σ band</text>
 
   <!-- envelope G3->G4 -->
   <path d="M660,249 C675,247 686,246 700,245" fill="none" stroke="#0E988C" stroke-width="2.4"/>
@@ -110,10 +110,10 @@
     <path d="M770,230 L776,230 L776,260 L770,260" fill="none" stroke="#ED481C" stroke-width="2.2" stroke-linecap="round"/>
     <rect x="712" y="232" width="58" height="26" fill="#ED481C" opacity="0.10"/>
     <path d="M712,245 C730,243 752,245 770,244" fill="none" stroke="#0E988C" stroke-width="2.4"/>
-    <text x="741" y="228" font-family="ui-monospace, monospace" font-size="9" fill="#ED481C" text-anchor="middle" font-weight="700">{ }</text>
+    <text x="741" y="228" font-family="ui-monospace, monospace" font-size="11.7" fill="#ED481C" text-anchor="middle" font-weight="700">{ }</text>
     <circle cx="792" cy="244" r="10" fill="none" stroke="#0E988C" stroke-width="2"/>
     <polyline points="787,244 791,248 798,239" fill="none" stroke="#0E988C" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
-    <text x="762" y="300" font-family="ui-monospace, monospace" font-size="8" fill="#2B3062" text-anchor="middle" opacity="0.8">conformal clip · seal</text>
+    <text x="762" y="300" font-family="ui-monospace, monospace" font-size="10.4" fill="#2B3062" text-anchor="middle" opacity="0.8">conformal clip · seal</text>
   </g>
 
   <!-- certified ribbon -> output -->
@@ -126,11 +126,11 @@
     <polyline points="863,220 867,224 873,215" fill="none" stroke="#0F112A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <animate attributeName="stroke-dashoffset" values="20;0" dur="0.01s" begin="0s" fill="freeze"/>
     </polyline>
-    <text x="884" y="224" font-family="ui-monospace, monospace" font-size="11" font-weight="700" fill="#0F112A" letter-spacing="1">CERTIFIED</text>
+    <text x="884" y="224" font-family="ui-monospace, monospace" font-size="14.3" font-weight="700" fill="#0F112A" letter-spacing="1">CERTIFIED</text>
     <path d="M858,260 C880,252 900,266 922,256" fill="none" stroke="#0E988C" stroke-width="2"/>
     <path d="M858,252 C880,244 900,258 922,248 L922,264 C900,274 880,260 858,268 Z" fill="#0E988C" opacity="0.14"/>
     <g fill="#0F112A"><circle cx="872" cy="259" r="1.8"/><circle cx="897" cy="261" r="1.8"/><circle cx="915" cy="254" r="1.8"/></g>
-    <text x="906" y="284" font-family="ui-monospace, monospace" font-size="7.5" fill="#2B3062" text-anchor="middle" opacity="0.85">PREDICTION ± UNCERTAINTY</text>
+    <text x="906" y="284" font-family="ui-monospace, monospace" font-size="9.8" fill="#2B3062" text-anchor="middle" opacity="0.85">PREDICTION ± UNCERTAINTY</text>
   </g>
 
   <!-- Travelling data packets along the ribbon (the live signal) -->
@@ -148,8 +148,8 @@
   <g stroke="#0E988C" stroke-width="0.9" opacity="0.4" stroke-dasharray="2 3">
     <line x1="257" y1="285" x2="257" y2="430"/><line x1="422" y1="285" x2="422" y2="430"/><line x1="592" y1="290" x2="592" y2="430"/><line x1="762" y1="285" x2="762" y2="430"/>
   </g>
-  <text x="180" y="452" font-family="ui-monospace, monospace" font-size="9.5" fill="#2B3062" letter-spacing="1.5" opacity="0.85">ASSESS · MEASURE AGAINST DATUM</text>
-  <text x="820" y="452" font-family="ui-monospace, monospace" font-size="9.5" fill="#2B3062" letter-spacing="1" opacity="0.7" text-anchor="end">INITIALS UNDER EACH STAGE = RESEARCHERS (SEE TEAM)</text>
+  <text x="180" y="450" font-family="ui-monospace, monospace" font-size="12.3" fill="#2B3062" letter-spacing="1.5" opacity="0.85">ASSESS · MEASURE AGAINST DATUM</text>
+  <text x="180" y="472" font-family="ui-monospace, monospace" font-size="12.3" fill="#2B3062" letter-spacing="1" opacity="0.7">INITIALS PER STAGE = RESEARCHERS (SEE TEAM)</text>
 
   </g>
   <!-- /Figure body -->
